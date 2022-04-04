@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problema 03, II en Javascript</title>
+</head>
+<body>
+    <header>
+      <h1 class="title">Problemas III en Javascript</h1>
+    </header>
+    <nav class="nav">
+      <!-- Navegacion -->
+      <a onclick="window.location.href = '../index.html';">INICIO </a>
+      <a onclick="window.location.href = '01problema.html';">
+        PROBLEMA 01 </a>
+      <a onclick="window.location.href = '02problema.html';">
+        PROBLEMA 02 </a>
+      <a onclick="window.location.href = '03problema.html';">
+        PROBLEMA 03 </a>
+      <a onclick="window.location.href = '04problema.html';">
+        PROBLEMA 04 </a>
+    </nav>
+    <main class="container">
+      <!-- Problema 3 -->
+      <div class="problema-container">
+        <h2 class="problema-title">Problema 03</h2>
+        <p>
+          Determinar la cantidad de dinero que recibirá un trabajador por concepto de las horas extras 
+          trabajadas en una empresa, sabiendo que cuando las horas de trabajo excedan de 40, el resto se 
+          consideran horas extras y que se pagan al doble de una hora normal cuando no se exceden de 
+          8; si las horas extras exceden de 8 se pagan las primeras 8 al doble de lo que se pagan las horas
+          normales y el resto al triple.
+        </p>
+        <div class="problema-content">
+          <form method="post" name="formulario03">
+            <input type="text" id="horas" class="problema-input" placeholder="Ingresa las horas que trabajó: "
+              onkeypress="return validarn_problema03(event)" />
+            <input type="text" id="sueldo" class="problema-input" placeholder="Ingresa su sueldo por hora: "
+              onkeypress="return validarn_problema03(event)" />
+            <button type="button" class="problema-button" onclick="problema03()">
+              Calcular paga final
+            </button>
+            <button type="button" class="problema-button" onclick="borrarp3()">
+              Borrar
+            </button> <br> <br>
+            <pre class="problema-output" id="outputp3">Esperando datos...</pre>
+          </form>
+        </div>
+      </div>
+    </main>
+    <script src="js/js_p3.js"></script>
+  </body>
+  
+  </html>
