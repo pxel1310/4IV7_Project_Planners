@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" type="image/x-icon" href="../img/shortcut.png" />
+  <title>Problema 02, II en Javascript</title>
+</head>
+
+<body>
+  <header>
+    <h1 class="title">Problemas II en Javascript</h1>
+  </header>
+  <nav class="nav">
+    <!-- Navegacion -->
+    <a onclick="window.location.href = '../index.html';">INICIO </a>
+    <a onclick="window.location.href = '01problema.html';">
+      PROBLEMA 01 </a>
+    <a onclick="window.location.href = '02problema.html';">
+      PROBLEMA 02 </a>
+    <a onclick="window.location.href = '03problema.html';">
+      PROBLEMA 03 </a>
+    <a onclick="window.location.href = '04problema.html';">
+      PROBLEMA 04 </a>
+  </nav>
+  <main class="container">
+    <!-- Problema 2 -->
+    <div class="problema-container">
+      <h2 class="problema-title">Problema 02</h2>
+      <p>
+        Leer tres números diferentes e imprimir el numero mayor de los tres.
+      </p>
+      <div class="problema-content">
+        <form method="post" name="formulario02">
+          <input type="text" id="p2_input_1" class="problema-input" placeholder="Ingresa el primer número: "
+            onkeypress="return validarn_problema02(event)" />
+          <input type="text" id="p2_input_2" class="problema-input" placeholder="Ingresa el segundo número: "
+            onkeypress="return validarn_problema02(event)" />
+          <input type="text" id="p2_input_3" class="problema-input" placeholder="Ingresa el tercer número: "
+            onkeypress="return validarn_problema02(event)" /> <br>
+          <button type="button" class="problema-button" onclick="problema02()">
+            Comparar e Imprimir el Mayor
+          </button>
+          <button type="button" class="problema-button" onclick="borrar_problema02()">
+            Borrar
+          </button> <br> <br>
+          <pre class="problema-output" id="p2_output">Esperando datos...</pre>
+        </form>
+      </div>
+    </div>
+  </main>
+  <script src="../js/02problema.js"></script>
+</body>
+
+</html>
