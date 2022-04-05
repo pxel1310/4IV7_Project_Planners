@@ -71,3 +71,11 @@ document.oncopy = (event) => {
   document.onpaste = (event) => {
     event.preventDefault();
   };
+
+document.ondrag = (event) => {
+  event.preventDefault();
+};
+
+document.ondrop  = (event) => {
+  event.preventDefault();
+};
