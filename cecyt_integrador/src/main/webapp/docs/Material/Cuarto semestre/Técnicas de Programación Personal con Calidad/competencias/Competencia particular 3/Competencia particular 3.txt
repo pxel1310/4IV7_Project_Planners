@@ -1,0 +1,1 @@
+Evalúa la calidad del producto de software a través de la elaboración de los planes del proyecto que presentan los valores estimados y reales, del tamaño del programa y el tiempo de desarrollo, así como la previsión de los defectos usando métodos que los identifiquen.

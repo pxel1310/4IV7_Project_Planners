@@ -1,0 +1,6 @@
+UNIDAD DE APRENDIZAJE: Laboratorio de Proyectos de Tecnologías de la Información III
+UNIDAD DE APRENDIZAJE: Seguridad Web y Aplicaciones
+CARRERA: Técnico en programación
+AREA: Tecnológica
+SEMESTRE: Quinto
+COMPETENCIA GENERAL: Desarrollar proyectos de software, poniendo en práctica los conocimientos teóricos adqueridos en las adignaturas correspondientes al tercer, cuarto y quinto semestre de la Carrera (Introducción a los sistemas distribuidos, Introducción a la Ingeniería de Pruebas y Seguridad web y aplicaciones), en función de las necesidades de la Industria del Software.

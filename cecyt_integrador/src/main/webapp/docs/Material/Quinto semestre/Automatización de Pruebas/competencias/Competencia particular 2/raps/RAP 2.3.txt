@@ -1,0 +1,1 @@
+RAP 2.3: Elabora manuales de pruebas del software, analizando los elementos que se requieren para llevarlos a cabo.

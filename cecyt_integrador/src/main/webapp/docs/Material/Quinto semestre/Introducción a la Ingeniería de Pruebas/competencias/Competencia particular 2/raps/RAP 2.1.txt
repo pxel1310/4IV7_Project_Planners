@@ -1,0 +1,1 @@
+RAP 2.1: Identifica los elementos de los defectos, errores y fallas de software para planificar el proceso de administración de errores

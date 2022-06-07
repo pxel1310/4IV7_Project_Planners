@@ -1,0 +1,1 @@
+RAP 3.4: Analiza el coste relativo que genera la remoción de los defectos y su impacto sobre el coste resultante del soporte al producto de software.

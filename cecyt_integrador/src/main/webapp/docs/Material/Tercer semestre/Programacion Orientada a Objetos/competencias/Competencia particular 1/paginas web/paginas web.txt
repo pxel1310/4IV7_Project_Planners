@@ -1,0 +1,3 @@
+Instituto Tecnológico de Apizaco, Programación Orientada a Objetos, http://www.itapizaco.edu.mx/paginas/Poo/Tutorial/introduccion.html, 31/Octubre/2009.
+S/A, Lenguajes de Programación, http://www.lenguajes-de-programacion.com/lenguajes-de-programacion.shtml, 31/Octubre/2009.
+Hermanos Carrero, Java en Castellano, http://www.programacion.com/java/tutoriales/J2SE/, 31/Octubre/2009.

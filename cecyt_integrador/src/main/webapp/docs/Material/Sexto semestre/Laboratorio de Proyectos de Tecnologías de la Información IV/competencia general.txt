@@ -1,0 +1,5 @@
+UNIDAD DE APRENDIZAJE: Laboratorio de Proyectos de Tecnologías de la Inoformación IV
+CARRERA: Técnico en programación
+AREA: Tecnológica
+SEMESTRE: Sexto 
+COMPETENCIA GENERAL: Desarrolla proyectos de software, poniendo en práctica los conocimientos teóricos adquiridos en las asignaturas correspondientes al tercer, cuarto, quinto, y sexto semestre de la Carrera (Métodos Ágiles de Programación, Soporte de Software, Ingeniería de Software Básica), en función de las necesidades de la Industria del Software.

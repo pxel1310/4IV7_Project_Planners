@@ -1,0 +1,1 @@
+RAP 1.2: Analiza el impacto y los beneficios que tienen las pruebas automatizadas en el ciclo de desarrollo de software.

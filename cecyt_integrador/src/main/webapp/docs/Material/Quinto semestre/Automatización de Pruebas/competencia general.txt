@@ -1,0 +1,5 @@
+UNIDAD DE APRENDIZAJE: Automatización de Pruebas
+CARRERA: Técnico en programación
+AREA: Tecnológica
+SEMESTRE: Quinto
+COMPETENCIA GENERAL:Aplica herramientas de automatización de pruebas de software para desarrollar software de calidad.

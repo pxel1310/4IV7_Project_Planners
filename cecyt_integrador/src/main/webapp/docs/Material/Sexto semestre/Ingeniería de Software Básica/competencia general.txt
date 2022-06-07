@@ -1,0 +1,5 @@
+UNIDAD DE APRENDIZAJE: Ingeniería de Software Básica
+CARRERA: Técnico en programación
+AREA: Tecnológica
+SEMESTRE: Sexto 
+COMPETENCIA GENERAL: Aplica los principios fundamentales de la Ingeniería de software como indicador de la calidad del software.

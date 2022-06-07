@@ -1,0 +1,1 @@
+Resuelve algoritmos directamente traducibles a lenguajes de programación utilizando las técnicas de Programación Estructurada u Orientada a Objetos

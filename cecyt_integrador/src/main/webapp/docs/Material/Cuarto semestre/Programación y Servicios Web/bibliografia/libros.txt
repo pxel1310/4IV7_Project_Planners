@@ -1,0 +1,10 @@
+TCP/IP. E. Comer Douglas, Stevens Davi L. Prentice Hall 
+HTML/XML. XPott Oliver. Boixareu 
+Creación de sitios Web con ASP.NET Amundsen/ Litwin. Prentice Hall 
+Desarrollo de soluciones XML. Sturm Jack. Mc Graw Hill X5Manual de referencia HTML. Powell A.Thomas Mc Graw Hill 
+La Biblia de Creación y Diseño de Web. XCrowder David, Bailey Andrew. Anaya Multimedia 
+La Biblia HTML. XCharte Ojeda Fco. Anaya Multimedia 
+Programación con XML. Ricardo Eito Brun. Anaya Multimedia 
+Manual de referencia ASP.NET. XMacDonald Matthew. McGrawHill
+Manual de Referencia XML. XWilliamson Heather. McGrawHill. 
+Servicios Web XML de Microsoft .NETXTabor Robert. Prentice Hall.

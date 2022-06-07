@@ -1,0 +1,5 @@
+Ingeniería del Software, Sommerville Ian, Pearson Addison Wesley 2005.
+Ingeniería del Software, Pressman Roger S., McGrawHill 2005.
+Calidad de los sistemas informáticos , Piattini Mario G., García Félix O. y Caballero Ismael, Alfaomega Ra-Ma 2007.
+The art of Software support, Grossman Erick, Prentice Hall 2003.
+The complete guide custumer support, Grossman Erick, Prentice Hall 2003.

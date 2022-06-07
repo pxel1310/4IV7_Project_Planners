@@ -1,0 +1,5 @@
+UNIDAD DE APRENDIZAJE:Administración de proyectos de tecnologías de la información I
+CARRERA:Técnico en programación
+AREA:Tecnológica
+SEMESTRE:Tercero 
+COMPETENCIA GENERAL:Administra Proyectos de Tecnologías de la Información implementando herramientas, técnicas, metodologías y estrategias para asegurar la calidad del producto de software.

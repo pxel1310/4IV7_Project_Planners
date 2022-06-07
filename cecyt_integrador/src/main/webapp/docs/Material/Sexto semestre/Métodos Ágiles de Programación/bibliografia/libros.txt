@@ -1,0 +1,7 @@
+Desarrollo y gestión de proyectos informáticos., Steve McConnell , Mc Graw Hill 1998.
+Una explicación de la programación extrema. Aceptar el cambio., Beck, K., Addison-Wesley 1999.
+Large-scale Agile Software Development., Ron Crocker., Addison-Wesley. 2004.
+Ingeniería del Software. Un enfoque práctico. ,Pressman, R.S, Mc Graw Hill. 2002 .
+Planning Extreme Programming Reading., Kent Beck. , Addison Wesley.2000.
+Principles of Software Engineering Management., Cockbun, A. Addison- Wesley 2001. 
+Dynamic Systems Development Method: The Method in Practice., Stapleton J. .Dsdm, Addison-Wesley 1998. 

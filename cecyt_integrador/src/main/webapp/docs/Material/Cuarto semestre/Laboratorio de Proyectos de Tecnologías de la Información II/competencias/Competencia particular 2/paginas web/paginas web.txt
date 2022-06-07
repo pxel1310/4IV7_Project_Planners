@@ -1,0 +1,8 @@
+S/A, Guía Breve de Servicios Web http://www.w3c.es/divulgacion/guiasbreves/ServiciosWeb29/Octubre/2009
+Ricardo Eito Brun, XML y Servicios Web http://www.forpas.us.es/aula/xml/doc/08.XML%20y%20Servicios%20Web.ppt29/Octubre/2009
+Benjamín González C., Autenticación y Autorización, http://www.desarrolloweb.com/articulos/1640.php29/Octubre/2009
+Secretaría de Economía, Seguridad Informáticahttp://www.firmadigital.gob.mx/Seguridad.pdf29/Octubre/2009
+Ing.Lourdes Arlín Campoy Medrano,Tutorial de Bases de Datos 1, http://sistemas.itlp.edu.mx/tutoriales/basedat1/, 28/Octubre/2009
+Mercedes Marqués,Apuntes de Ficheros y Bases de Datos,http://www3.uji.es/~mmarques/f47/apun,28 /Octubre/2009
+MYSQL, MYSQL Hispano, http://www.mysql-hispano.org/, 28 /Octubre/2009
+Microsoft, Microsoft SQL server 2008, http://www.microsoft.com/latam/sqlserver/default.aspx, 28 /Octubre/2009

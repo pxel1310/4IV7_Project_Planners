@@ -1,0 +1,330 @@
+.bs-icon {
+  --bs-icon-size: .75rem;
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--bs-icon-size);
+  width: calc(var(--bs-icon-size) * 2);
+  height: calc(var(--bs-icon-size) * 2);
+  color: var(--bs-primary);
+}
+
+.bs-icon-xs {
+  --bs-icon-size: 1rem;
+  width: calc(var(--bs-icon-size) * 1.5);
+  height: calc(var(--bs-icon-size) * 1.5);
+}
+
+.bs-icon-sm {
+  --bs-icon-size: 1rem;
+}
+
+.bs-icon-md {
+  --bs-icon-size: 1.5rem;
+}
+
+.bs-icon-lg {
+  --bs-icon-size: 2rem;
+}
+
+.bs-icon-xl {
+  --bs-icon-size: 2.5rem;
+}
+
+.bs-icon.bs-icon-primary {
+  color: var(--bs-white);
+  background: var(--bs-primary);
+}
+
+.bs-icon.bs-icon-primary-light {
+  color: var(--bs-primary);
+  background: rgba(var(--bs-primary-rgb), .2);
+}
+
+.bs-icon.bs-icon-semi-white {
+  color: var(--bs-primary);
+  background: rgba(255, 255, 255, .5);
+}
+
+.bs-icon.bs-icon-rounded {
+  border-radius: .5rem;
+}
+
+.bs-icon.bs-icon-circle {
+  border-radius: 50%;
+}
+
+.btn-main {
+  background-color: #9f3d5f;
+  color: #ece3e0;
+}
+
+.btn-main:hover {
+  background-color: #bd5b7d;
+}
+
+#blocks {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+#footer {
+  background: #9f3d5f;
+  padding: 1.5rem 0.5rem;
+}
+
+#footer a {
+  color: #ece3e0;
+}
+
+#footer a:hover {
+  cursor: pointer;
+}
+
+#header {
+  background-color: #9f3d5f;
+  color: #2e2826;
+}
+
+#header img {
+  width: 12rem;
+}
+
+#main .carousel-inner img {
+  max-height: 70rem;
+  object-fit: cover;
+}
+
+#carousel {
+  position: relative;
+}
+
+#carousel .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #fafaf8;
+}
+
+#carousel img {
+  height: 32rem;
+}
+
+#carousel .overlay .container, #carousel .overlay .row {
+  height: 100%;
+}
+
+#CECyT-9-extra {
+  border-radius: 2rem;
+}
+
+.btn-main {
+  background-color: #9f3d5f;
+  color: #ece3e0;
+}
+
+.btn-main:hover {
+  background-color: #bda75b;
+}
+
+#blocks {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+#footer {
+  background: #9f3d5f;
+  padding: 1.5rem 0.5rem;
+}
+
+#footer a {
+  color: #ece3e0;
+}
+
+#footer a:hover {
+  cursor: pointer;
+}
+
+#header {
+  background-color: #9f3d5f;
+  color: #2e2826;
+}
+
+#header img {
+  width: 12rem;
+}
+
+#main .carousel-inner img {
+  max-height: 70rem;
+  object-fit: cover;
+}
+
+#carousel {
+  position: relative;
+}
+
+#carousel .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #fafaf8;
+}
+
+#carousel img {
+  height: 32rem;
+}
+
+#carousel .overlay .container, #carousel .overlay .row {
+  height: 100%;
+}
+
+#CECyT-9-extra {
+  border-radius: 2rem;
+}
+
+.btn {
+  background-color: d;
+}
+
+.btn-main {
+  background-color: #9F3D5F;
+  color: #ECE3E0;
+}
+
+.btn-main:hover {
+  background-color: #e6df33;
+}
+
+a {
+  font-size: 18px;
+}
+
+#date {
+  border-radius: 10rem;
+}
+
+#date {
+  height: 52px;
+  font-size: 13px;
+}
+
+.o-hidden {
+  height: 540px;
+}
+
+.navbar {
+  background-color: #9f3d5f;
+}
+
+#carousel-1 {
+  margin-top: -18px;
+  height: 500px;
+}
+
+.carousel-item {
+  margin-top: 0px;
+  margin-right: -1400px;
+  margin-left: -18px;
+  width: 1398px;
+}
+
+footer {
+  background: #ece3e0;
+}
+
+a {
+  font-size: 16px;
+}
+
+#link {
+  font-size: 17px;
+  font-weight: bold;
+  color: black;
+}
+
+#logo-img {
+  width: 90px;
+}
+
+.carousel-item {
+  width: 1973px;
+}
+
+#nav-derecho {
+  margin-right: 5rem;
+}
+
+#img-registro {
+  border-radius: 10px;
+  height: 460px;
+  padding-right: 5px;
+  margin-top: 2rem;
+}
+
+#img-login {
+  height: 400px;
+  margin-left: 14px;
+  border-radius: 2rem;
+  margin-right: 0px;
+  margin-top: 3rem;
+}
+
+#div-regresar {
+  margin-top: 2rem;
+}
+
+#div-regresar2 {
+  margin-top: 1rem;
+}
+
+#navcol-1 {
+  margin-left: 3rem;
+}
+
+#link {
+  padding-left: 2rem;
+  margin-top: 2.4rem;
+}
+
+#img-perfil {
+  margin-right: 1rem;
+}
+
+#h3-profile {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+#navcol-2 {
+  margin-left: 2rem;
+}
+
+#container-profile1 {
+  margin-left: 1rem;
+  margin-top: 2rem;
+}
+
+#boton-guardarCambios {
+  margin-top: 10px;
+}
+
+#link-menu {
+  font-weight: bold;
+}
+
+#link-perfil {
+  font-weight: bold;
+  color: black;
+  margin-right: 6rem;
+}
+
+#xdddd{
+  opacity: 35%;
+}

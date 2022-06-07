@@ -1,0 +1,1 @@
+RAP 3.2: Aplica transacciones para asegurar la autenticidad de la información para asegurar su confiabilidad

@@ -1,0 +1,1 @@
+RAP 3.2: Aplica los conceptos de interfaces en la solución de problemas de aplicaciones de software.

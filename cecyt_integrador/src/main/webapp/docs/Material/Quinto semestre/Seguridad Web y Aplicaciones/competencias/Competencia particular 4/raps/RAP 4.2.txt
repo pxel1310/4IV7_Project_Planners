@@ -1,0 +1,1 @@
+RAP 4.2 Aplica mecanismos de seguridad contra las amenazas de software dañino.

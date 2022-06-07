@@ -1,0 +1,1 @@
+RAP 1.4: Describe los roles y organización que desempeña el personal que realiza la automatización de pruebas de software

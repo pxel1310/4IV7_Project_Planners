@@ -1,0 +1,1 @@
+RAP 1.3: Modela bases de datos normalizadas aplicando las metodologías de desarrollo del esquema conceptual y lógico.

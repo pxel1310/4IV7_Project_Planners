@@ -1,0 +1,1 @@
+RAP 3.1: Detecta las demoras de las actividades del proyecto de software por medio del seguimiento de las mismas.

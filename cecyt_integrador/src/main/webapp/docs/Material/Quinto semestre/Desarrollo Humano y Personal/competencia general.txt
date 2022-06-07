@@ -1,0 +1,5 @@
+UNIDAD DE APRENDIZAJE: Desarrollo Humano y Personal
+CARRERA: Técnico en programación
+AREA: Tecnológica
+SEMESTRE: Quinto
+COMPETENCIA GENERAL:Proyecta una actitud comprometida, con valores y principios humanos y personales para el desarrollo de proyectos de software de impacto social.

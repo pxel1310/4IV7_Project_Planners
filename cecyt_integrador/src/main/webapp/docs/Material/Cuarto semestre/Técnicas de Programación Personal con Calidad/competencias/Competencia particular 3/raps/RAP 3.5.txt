@@ -1,0 +1,1 @@
+RAP 3.5: Aplica las estrategias para calcular y controlar medidas que evalúan la calidad del trabajo de desarrollo del software.

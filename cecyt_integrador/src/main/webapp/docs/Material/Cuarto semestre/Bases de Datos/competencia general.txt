@@ -1,0 +1,5 @@
+UNIDAD DE APRENDIZAJE:Base de datos
+CARRERA:Técnico en programación
+AREA:Tecnológica
+SEMESTRE:Cuarto
+COMPETENCIA GENERAL:Desarrolla bases de datos normalizadas e implementando políticas de seguridad con gestores de bases de datos para la explotación de la información a través de lenguajes consulta a base de datos.

@@ -1,0 +1,1 @@
+RAP 2.3: Aplica la Persistencia como una forma de almacenamiento y administración de la información.

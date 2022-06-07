@@ -1,0 +1,1 @@
+RAP 1.1: Describe los elementos que conforman el modelo Cliente-Servidor y su operación en función del modelo de arquitectura.

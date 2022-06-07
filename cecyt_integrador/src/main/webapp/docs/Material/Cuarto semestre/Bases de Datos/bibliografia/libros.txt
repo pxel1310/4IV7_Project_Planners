@@ -1,0 +1,6 @@
+Fundamentos de Bases de Datos Silberschatz, Abraham / Korth / SudarshanMc Graw Hill, 2006
+Fundamentos y modelos de Bases de Datos Adoración de Miguel / Piattini, MarioAlfaOmega RA-MA, 1999
+Diseño de Bases de Datos Relacionales Adoración de Miguel / Piattini, MarioAlfaOmega RA-MA, 1999
+Microsoft Sql Server 2005. Administración yAnálisis De Bases De Datos Pérez, César.RA-MA, 2006
+Mysql. Edición Revisada y Actualizada 2009 Paul, DuboisAnaya Multimedia, 2009
+Mysql 5.1XGutiérrez Gallardo, Juan DiegoAnaya Multimedia, 2009

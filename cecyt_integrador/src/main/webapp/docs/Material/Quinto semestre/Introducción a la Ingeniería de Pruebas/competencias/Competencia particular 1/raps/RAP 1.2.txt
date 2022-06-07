@@ -1,0 +1,1 @@
+RAP 1.2: Describe los objetivos y principios de la calidad mediante el proceso de prueba de software.

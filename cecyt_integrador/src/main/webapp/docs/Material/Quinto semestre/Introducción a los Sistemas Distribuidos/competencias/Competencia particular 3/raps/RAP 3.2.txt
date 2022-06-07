@@ -1,0 +1,1 @@
+RAP 3.2 Utiliza la representación externa de datos y empaquetados en la comunicación entre procesos.

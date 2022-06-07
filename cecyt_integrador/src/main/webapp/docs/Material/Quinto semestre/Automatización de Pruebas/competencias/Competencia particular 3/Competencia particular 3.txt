@@ -1,0 +1,1 @@
+Competencia particular 3: Implementa el ciclo de vida de la automatización de pruebas de software.

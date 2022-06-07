@@ -1,0 +1,1 @@
+RAP 3.3: Aplica las Pruebas de Unidad, integración, sistema, validación y regresión para evaluar el desempeño de calidad y eficiencia del producto de software de acuerdo a los elementos de organización y personal organizado para realizar la prueba al producto de software.

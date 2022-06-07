@@ -1,0 +1,4 @@
+Sistemas Distribuidos Conceptos y Diseño  Coulouris George Dollimore Jean Kindberg Pearson Addison Wesley 2001
+Sistemas Distribuidos Principios y Paradigmas  Tanenbaum Andrew S. Van Steen Maarten Pearson Prentice Hall 2008   
+Ingeniería del Software  Sommerville Ian Pearson Addison Wesley 2005  
+Ingeniería del Software Pressman Roger S. McGrawHill 2005

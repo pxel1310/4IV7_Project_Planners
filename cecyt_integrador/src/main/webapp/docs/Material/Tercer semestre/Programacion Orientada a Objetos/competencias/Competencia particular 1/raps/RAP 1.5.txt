@@ -1,0 +1,1 @@
+RAP 1.5: Emplea la asignación y el manejo de memoria en la implementación de arreglos en el desarrollo de aplicaciones de software.

@@ -1,0 +1,5 @@
+Consejo Superior de Administración Electrónica, España, Metodología de Planificación, Desarrollo y Mantenimiento de sistemas de información, http://www.csi.map.es/csi/metrica3/, 1/Noviembre/2009.
+José R. Álvarez y Manuel Arias, Ciclo de Vida del software, http://www.ia.uned.es/ia/asignaturas/adms/GuiaDidADMS/node10.html , 1/Noviembre/2009.
+Andrés Neyem, Instructivo para el modelado con casos de uso, https://www.u-cursos.cl/ingenieria/2007/1/CC51A/1/material_docente/objeto/119973 - , 1/Noviembre/2009.
+Universidad Católica “Nuestra Señora de la Asunción”, Sistemas Operativos, http://www.dei.uc.edu.py/tai2004. 
+Usr.code, Ciclo de Vida del Software, http://www.cepeu.edu.py/LIBROS_ELECTRONICOS_3/lpcu097%20-%2001.pdf , 1/Noviembre/2009.

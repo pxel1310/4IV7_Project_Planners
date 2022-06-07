@@ -1,0 +1,1 @@
+RAP 1.4: Utiliza sentencias de control de flujo de programa aplicando lógica deductiva en el desarrollo de aplicaciones de software.

@@ -1,0 +1,1 @@
+Aplica protección a las bases de datos para su confidencialidad, disponibilidad e integridad.

@@ -1,0 +1,5 @@
+UNIDAD DE APRENDIZAJE:Administración de proyectos de tecnologías de la información II
+CARRERA:Técnico en programación
+AREA:Tecnológica
+SEMESTRE:Cuarto 
+COMPETENCIA GENERAL:Integra equipos colaborativos para el desarrollo de software, adquiriendo competencias para la construcción y comercialización de proyectos en función de las necesidades de la industria de software.

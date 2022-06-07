@@ -1,0 +1,1 @@
+Realiza el plan de mejora continua del proyecto de software con base a su ejecución.

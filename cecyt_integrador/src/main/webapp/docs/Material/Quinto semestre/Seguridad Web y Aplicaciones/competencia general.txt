@@ -1,0 +1,5 @@
+UNIDAD DE APRENDIZAJE: Seguridad Web y Aplicaciones
+CARRERA: Técnico en programación
+AREA: Tecnológica
+SEMESTRE: Quinto
+COMPETENCIA GENERAL: Aplica Seguridad a los sistemas de informacion web y aplicaciones, empleando servicios y mecanismos de seguridad establecidos por las tecnologias de las informacion, con base en los entandares de la indistria del software.

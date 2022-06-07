@@ -1,0 +1,1 @@
+RAP 4.1: Aplicar diversos tipos de pruebas automatizadas dentro del ciclo de desarrollo de software

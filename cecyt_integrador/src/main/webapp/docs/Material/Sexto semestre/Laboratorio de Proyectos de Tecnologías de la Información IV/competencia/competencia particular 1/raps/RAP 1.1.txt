@@ -1,0 +1,1 @@
+RAP 1.1: Elabora la planeación del proyecto de software basándose en conceptos de Métodos Ágiles de Programación, Soporte de Software, Ingeniería de Software Básica, determinando los requerimientos presentados.

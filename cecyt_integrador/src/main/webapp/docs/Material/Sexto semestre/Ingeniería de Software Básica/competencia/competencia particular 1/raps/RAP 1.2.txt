@@ -1,0 +1,1 @@
+RAP 1.2: Explica la diferencia entre Ingeniería de software e ingeniería de sistemas, así como las propiedades, y organización de los Sistemas de Información.

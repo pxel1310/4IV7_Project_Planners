@@ -1,0 +1,1 @@
+RAP 3.2: Aplica métodos para identificar defectos en el desarrollo de un producto de software, a través de su descripción con base en criterios de análisis.

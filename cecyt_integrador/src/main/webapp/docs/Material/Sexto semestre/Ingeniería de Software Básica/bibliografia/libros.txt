@@ -1,0 +1,3 @@
+Ingeniería del Software un enfoque práctico, S. Pressman Roger, Mc Graw Hill 2005.
+Ingeniería de Software, Sommerville Ian. , Adisson Wesley. 2005.
+Ingeniería de Software Teoría y Práctica, Lawrence Pleeger Shari., Prentice Hall.

@@ -1,0 +1,1 @@
+Competencia particular 2: Emplea algoritmos criptográficos y protocolos fundamentales en aplicaciones de seguridad en redes.

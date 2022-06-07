@@ -1,0 +1,5 @@
+UNIDAD DE APRENDIZAJE: Plan de Negocios
+CARRERA: Técnico en programación
+AREA: Tecnológica
+SEMESTRE: Sexto 
+COMPETENCIA GENERAL: Desarrolla Planes de Negocios utilizando las herramientas, metodologías y estrategias que determinen la factibilidad y éxito de proyectos en el mercado de la Industria de Software.

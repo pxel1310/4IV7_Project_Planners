@@ -1,0 +1,2 @@
+S/A, Introducción a la programación de servicios Web XML en código administrado, http://msdn.microsoft.com/es- es/library/yzbxwf53(VS.80).aspx , 29/Octubre/2009
+Juan Ignacio Pérez SacristánWeb Services: XML- RPC, SOAP, sobre PHP, Perl, y otros conceptos, http://www.programacion.com/tutorial/xmlrpcsoap/ , 29/Octubre/2009

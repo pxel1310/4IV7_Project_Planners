@@ -1,0 +1,1 @@
+RAP 2.1: Modela el proyecto de software con base al análisis de los requerimientos de acuerdo a las técnicas y estrategias de administración de proyectos de software.

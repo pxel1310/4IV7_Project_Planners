@@ -1,0 +1,1 @@
+RAP 1.2: Analiza la fundamentación de modelos de proceso de aplicación del paradigma ágil de desarrollo de software.

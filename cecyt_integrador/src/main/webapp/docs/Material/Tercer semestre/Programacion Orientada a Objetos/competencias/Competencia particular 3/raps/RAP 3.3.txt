@@ -1,0 +1,1 @@
+RAP 3.3: Aplica los conceptos y elementos del manejo de errores en el código generado para la solución de problemas de software.

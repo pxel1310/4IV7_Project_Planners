@@ -1,0 +1,1 @@
+RAP 2.2: Utilizan lenguajes de acceso a bases de datos para la manipulación de la información contenida en las Bases de Datos.

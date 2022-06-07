@@ -1,0 +1,1 @@
+Competencia particular 1: Planea estratégicamente el proyecto de software basándose en conceptos de Introducción a los sistemas distribuidos, Introducción a la Ingeniería de Pruebas y Seguridad web y aplicaciones, determinando los requerimientos presentados. 

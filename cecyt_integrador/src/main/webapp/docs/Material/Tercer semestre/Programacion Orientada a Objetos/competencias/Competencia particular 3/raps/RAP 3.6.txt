@@ -1,0 +1,1 @@
+RAP 3.6: Aplica elementos gráficos y manejo de eventos para la creación de interfaz de usuario en la solución de problemas de desarrollo de software.

@@ -1,0 +1,1 @@
+Aplica métodos de administración de tiempos de la calidad del software conforme a las actividades clave del proceso para el aseguramiento, la planeación y el control de la calidad de un producto de software.

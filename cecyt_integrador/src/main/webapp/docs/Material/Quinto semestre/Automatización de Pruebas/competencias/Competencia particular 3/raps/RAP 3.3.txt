@@ -1,0 +1,1 @@
+RAP 3.3: Evalúa el análisis y diseño a pruebas automatizadas de acuerdo a métricas establecidas.

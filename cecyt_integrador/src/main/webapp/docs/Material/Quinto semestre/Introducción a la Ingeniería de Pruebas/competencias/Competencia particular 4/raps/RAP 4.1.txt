@@ -1,0 +1,1 @@
+RAP 4.1: Identifica los aspectos de plataformas asociados a las pruebas de software, así como los elementos esenciales de la arquitectura de componentes.

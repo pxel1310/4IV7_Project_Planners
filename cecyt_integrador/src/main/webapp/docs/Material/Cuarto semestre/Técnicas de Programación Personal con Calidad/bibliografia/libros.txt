@@ -1,0 +1,6 @@
+Introducción al Proceso Software Personal S. Humphrey WattsAddison Wesley 1998
+Ingeniería de SoftwareRoger S. PressmanMc Graw Hill  2006
+Ingeniería de SoftwareSommerville IanAddison Wesley 2002
+Ingeniería de software: una perspectiva orientada a objetos.BraudeRa-ma 2003
+Análisis y diseño de aplicaciones informáticas de gestión. Una perspectiva de ingeniería del software.Piattini Velthuis Mario G.Ra-ma 2003
+Ingeniería de software orientado a objetos.Bruegge Bernd H. Dutoit AllenPrentice Hall 2003

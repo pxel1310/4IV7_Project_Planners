@@ -1,0 +1,1 @@
+Diseña Bases de Datos normalizadas aplicando el modelado de datos Entidad-Relación y Relacional para generar el esquema conceptual y lógico

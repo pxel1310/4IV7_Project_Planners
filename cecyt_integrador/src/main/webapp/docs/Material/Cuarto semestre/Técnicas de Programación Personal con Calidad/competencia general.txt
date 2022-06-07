@@ -1,0 +1,5 @@
+UNIDAD DE APRENDIZAJE:Técnicas de programación personal con calidad
+CARRERA:Técnico en programación
+AREA:Tecnológica
+SEMESTRE:Cuarto
+COMPETENCIA GENERAL:Aplica técnicas para la calidad en el desarrollo de software personal, en función de metodologías apropiadas y de impacto en la industria de desarrollo de software.

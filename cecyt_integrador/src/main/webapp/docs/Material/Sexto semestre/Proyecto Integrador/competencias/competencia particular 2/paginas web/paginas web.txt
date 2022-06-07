@@ -1,0 +1,8 @@
+José R. Álvarez y Manuel Arias, Ciclo de Vida del software, http://www.ia.uned.es/ia/asignaturas/adms/GuiaDidADMS/node10.html , 1/Noviembre/2009.
+Universidad Católica “Nuestra Señora de la Asunción”, Sistemas Operativos, http://www.dei.uc.edu.py/tai2004-2/14/index.htm , 1 /Noviembre/2009.
+Florencio I. Utreras, ¿Sabe Ud. Realmente Qué es Internet?, www.explora.cl/otros/9semana/noticias/recursos/utreras.ppt, 28/Octubre/2009.
+Secretaría de Economía, Seguridad Informática, http://www.firmadigital.gob.mx/Seguridad.pdf, 29/Octubre/2009.Mercedes Marqués, Apuntes de Ficheros y
+Bases de Datos, http://www3.uji.es/~mmarques/f47/apun, 28/Octubre/2009.
+S/A , Seguridad Informática ¿Qué, porqué y para qué?, http://www.inegi.gob.mx/inegi/contenidos/espanol/ciberhabitat/museo/cerquita/redes/seguridad/intro.htm , 29/Octubre/2009.
+Máximo Merlat , Seguridad Informática, http://www.monografias.com/trabajos/hackers/hackers.shtml , 29/Octubre/2009.
+S/A, Introducción a la programación de servicios Web XML en código administrado, http://msdn.microsoft.com/es-es/library/yzbxwf53(VS.80).aspx , 29/Octubre/2009.

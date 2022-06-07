@@ -1,0 +1,1 @@
+RAP 3.5: Describe las pruebas que se utilizan para detectar defectos en el software.

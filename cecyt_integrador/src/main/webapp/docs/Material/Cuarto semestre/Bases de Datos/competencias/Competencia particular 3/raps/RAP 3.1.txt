@@ -1,0 +1,1 @@
+RAP 3.1: Aplica protección al acceso de los datos para mantener su privacidad.

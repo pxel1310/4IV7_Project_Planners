@@ -1,0 +1,1 @@
+RAP 2.3: Planifica el producto de software a partir de las medidas del tamaño del mismo.

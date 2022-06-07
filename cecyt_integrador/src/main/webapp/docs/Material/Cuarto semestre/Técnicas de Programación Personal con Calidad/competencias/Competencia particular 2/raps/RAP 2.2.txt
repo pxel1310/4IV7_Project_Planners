@@ -1,0 +1,1 @@
+RAP 2.2: Aplica métodos de planificación de periodos y productos que intervienen en el desarrollo de software.

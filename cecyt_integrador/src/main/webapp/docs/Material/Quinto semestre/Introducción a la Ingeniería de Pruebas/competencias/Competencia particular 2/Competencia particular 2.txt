@@ -1,0 +1,1 @@
+Competencia particular 2: Aplica fundamentos de la administración de errores y defectos para asegurar la calidad del desarrollo del software.

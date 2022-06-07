@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="cecyt_integrador:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>cecyt_integrador</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="cecyt_integrador.war">
+      <element id="artifact" artifact-name="cecyt_integrador:war exploded" />
+    </root>
+  </artifact>
+</component>

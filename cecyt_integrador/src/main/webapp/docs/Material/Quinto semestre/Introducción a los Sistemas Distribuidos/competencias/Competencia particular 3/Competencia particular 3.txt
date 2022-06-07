@@ -1,0 +1,1 @@
+Competencia particular 3: Emplea la comunicación entre procesos para la transferencia de información con base en protocolos estándares

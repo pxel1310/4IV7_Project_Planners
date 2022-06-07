@@ -1,0 +1,1 @@
+RAP 2.2: Aplica los principios de abstracción, encapsulamiento, herencia y polimorfismo en la solución de problemas en un entorno real.

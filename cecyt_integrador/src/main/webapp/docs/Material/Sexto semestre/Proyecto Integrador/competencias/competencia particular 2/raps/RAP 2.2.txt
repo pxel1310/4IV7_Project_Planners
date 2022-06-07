@@ -1,0 +1,1 @@
+RAP 2.2: Desarrolla el Software correspondiente al proyecto, cubriendo los requerimientos solicitados utilizando los conocimientos de Programación Orientada a objetos, Programación y servicios Web, Base de Datos, Sistemas distribuidos, Ing. De Pruebas, Seguridad Web, Métodos Agiles, Soporte de software y bases de datos Ingeniería de Software.

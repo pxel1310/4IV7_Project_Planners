@@ -1,0 +1,5 @@
+UNIDAD DE APRENDIZAJE:Programación y servicios web
+CARRERA:Técnico en programación
+AREA:Tecnológica
+SEMESTRE:Cuarto 
+COMPETENCIA GENERAL:Aplica elementos, fundamentos y lenguajes de programación Web, a partir de arquitecturas y tecnologías incorporadas en los Servicios Web.

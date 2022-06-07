@@ -1,0 +1,22 @@
+Manual de Referencia Java 2, Herbert Schildt, Mc Graw Hill 2006.
+Java: A Beginner’s Guide 4th Ed. , Herbert Schildt, Mc Graw Hill 2007.
+Aprendiendo Programación Orientada a Objetos en 21 lecciones avanzadas, Sintes Anthony, Pearson 2004.
+Java 2. Curso de Programación, Ceballos Francisco Javier, Alfaomega 2003.
+Java Cómo programar , Harvey M. Deitel and Paul J. Deitel, Pearson 2009.
+El Lenguaje Unificado de Modelado, Booch Grady, Rumbaugh James, Adison Wesley 1999.
+Aprendiendo UML en 24 horas, Schmuller Joseph, Pearson 2004.
+El Lenguaje Unificado de Modelado. Manual de Referencia, Rumbaugh James, Jacobson Ivar, Pearson 1999.
+El proceso Unificado de desarrollo de software, Booch Grady, Rumbaugh James, Jacobson Ivar, Pearson 1999.
+Ingeniería del Software. Un enfoque Práctico , Pressman, Roger McGrawHill, 2005.
+Desarrollo y Gestión de Proyectos Informáticos, McConnell, Steve McGrawHill, 1997.
+Aprendiendo UML en 24 Horas, Schmuller, Joseph, Prentice Hall, 2001
+Fundamentos de Bases de Datos X Silberschatz, Abraham / Korth / Sudarshan, Mc Graw Hill, 2006.
+Fundamentos y modelos de Bases de Datos, Adoración de Miguel / Piattini, Mario AlfaOmega RA-MA, 1999.
+Diseño de Bases de Datos Relacionales, Adoración de Miguel / Piattini, Mario AlfaOmega RA-MA, 1999.
+Microsoft Sql Server 2005. Administración y Análisis De Bases De Datos, Pérez, César. RA-MA, 2006.
+Mysql. Edición Revisada y Actualizada 2009, Paul, Dubois Anaya, Multimedia, 2009.
+Mysql 5.1 , Gutiérrez Gallardo, Juan Diego Anaya, Multimedia, 2009.
+Fundamentos de Seguridad en Redes. Aplicaciones y Estándares, William Stallings Pearson, Prentice Hall 2004.
+Seguridad en Redes Telemáticas, Justo Cariacedo Gallardo, McGrawHill 2004.
+Sistemas Distribuidos Conceptos y Diseño, Coulouris George, Dollimore Jean, Kindberg, Pearson Addison Wesley 2001.
+Sistemas Distribuidos Principios y Paradigmas, Tanenbaum Andrew S., Van Steen Maarten, Pearson Prentice Hall 2008.

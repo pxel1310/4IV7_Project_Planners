@@ -1,0 +1,1 @@
+Utiliza gestores y lenguajes de bases de datos para la gestión y manipulación de la información de las bases datos.

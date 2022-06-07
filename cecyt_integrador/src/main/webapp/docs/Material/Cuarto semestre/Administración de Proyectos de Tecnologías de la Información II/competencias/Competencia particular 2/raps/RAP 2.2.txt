@@ -1,0 +1,1 @@
+RAP 2.2: Comparte el conflicto como un valor para implementar y aplicar estrategias de mejora continua.

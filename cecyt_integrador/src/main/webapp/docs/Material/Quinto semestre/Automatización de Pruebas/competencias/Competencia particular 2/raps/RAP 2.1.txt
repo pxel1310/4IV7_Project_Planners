@@ -1,0 +1,1 @@
+RAP 2.1: Desarrolla planes, procedimientos y guiones de pruebas automatizadas tomando en cuenta los requerimientos.

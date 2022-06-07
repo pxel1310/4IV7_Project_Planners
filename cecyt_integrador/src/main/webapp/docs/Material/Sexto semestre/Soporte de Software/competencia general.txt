@@ -1,0 +1,5 @@
+UNIDAD DE APRENDIZAJE: Soporte de Software
+CARRERA: Técnico en programación
+AREA: Tecnológica
+SEMESTRE: Sexto 
+COMPETENCIA GENERAL: Emplea el Soporte de Software en el mantenimiento y administración de las tecnologías de la información, con base en procesos establecidos por la industria del software.

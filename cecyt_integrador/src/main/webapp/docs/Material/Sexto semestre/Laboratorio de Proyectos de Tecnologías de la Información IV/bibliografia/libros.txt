@@ -1,0 +1,12 @@
+HTML/XML., Pott Oliver. , Boixareu.
+Creación de sitios Web con ASP.NET, Amundsen/ Litwin., Prentice Hall.
+La Biblia HTML., Charte Ojeda Fco., Anaya Multimedia.
+Programación con XML., Ricardo Eito Brun., Anaya Multimedia.
+Servicios Web XML de Microsoft .NET, Tabor Robert. , Prentice Hall.
+Diseño de Bases de Datos Relacionales, Adoración de Miguel / Piattini, Mario , AlfaOmega RA-MA, 1999.
+Microsoft Sql Server 2005. Administración y Análisis De Bases De Datos, Pérez, C. , RA-MA, 2006.
+Mysql. Edición Revisada y Actualizada 2009, Paul, Dubois , Anaya Multimedia, 2009.
+Administración Profesional de Proyectos, Yamal Chamoun , McGrawHill, 2002.
+Ingeniería de Software. Un enfoque práctico, Pressman, Roger , McGrawHill, 2005.
+Introducción al Proceso Software Personal, S. Humphrey Watts , Addison Wesley 1998.
+Fundamentos y modelos de Bases de Datos, Adoración de Miguel / Piattini, Mario, AlfaOmega RA-MA, 1999.

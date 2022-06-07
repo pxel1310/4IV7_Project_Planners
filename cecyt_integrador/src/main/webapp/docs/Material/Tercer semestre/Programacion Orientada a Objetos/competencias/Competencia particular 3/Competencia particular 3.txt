@@ -1,0 +1,1 @@
+Aplica los conceptos asociados a estructuras de datos y control, interfaces, manejo de errores e interfaz gráfica en el desarrollo de aplicaciones de software

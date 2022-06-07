@@ -1,0 +1,1 @@
+RAP 2.2: Aplica las herramientas de planeación y de control de las actividades en el desarrollo del software.

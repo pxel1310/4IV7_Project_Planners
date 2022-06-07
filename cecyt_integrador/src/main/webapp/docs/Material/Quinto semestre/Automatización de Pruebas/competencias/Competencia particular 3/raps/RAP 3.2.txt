@@ -1,0 +1,1 @@
+RAP 3.2: Administra adecuadamente los requerimientos de prueba del software tomando en cuenta su ciclo de vida.

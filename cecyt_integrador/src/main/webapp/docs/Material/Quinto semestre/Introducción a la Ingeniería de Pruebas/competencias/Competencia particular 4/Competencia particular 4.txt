@@ -1,0 +1,1 @@
+Competencia particular 4: Analiza el ciclo de vida de las pruebas de software en el desarrollo del mismo, con los recursos de hardware y software con respecto a la plataforma relacionada a las pruebas de software.

@@ -1,0 +1,5 @@
+UNIDAD DE APRENDIZAJE: Métodos Ágiles de Programación
+CARRERA: Técnico en programación
+AREA: Tecnológica
+SEMESTRE: Sexto 
+COMPETENCIA GENERAL: Aplica metodologías ágiles y entornos informáticos para la gestión del desarrollo de proyectos de innovación en sistemas de software con calidad.

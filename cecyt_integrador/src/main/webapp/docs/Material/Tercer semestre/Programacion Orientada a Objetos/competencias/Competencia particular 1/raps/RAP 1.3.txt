@@ -1,0 +1,1 @@
+RAP 1.3: Identifica los elementos básicos que conforman el código de programación para la gestión de aplicaciones de software.

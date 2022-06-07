@@ -1,0 +1,1 @@
+RAP 2.2 Emplea autentificación y criptografía de clave pública para implementar seguridad.

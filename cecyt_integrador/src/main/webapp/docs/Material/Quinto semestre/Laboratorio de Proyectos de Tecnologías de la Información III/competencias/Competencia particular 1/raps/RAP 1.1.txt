@@ -1,0 +1,1 @@
+RAP 1.1 Elabora la planeación del proyecto de software basándose en conceptos de Introducción a los sistemas distribuidos, Introducción a la Ingeniería de Pruebas y Seguridad web y aplicaciones, determinando los requerimientos presentados.

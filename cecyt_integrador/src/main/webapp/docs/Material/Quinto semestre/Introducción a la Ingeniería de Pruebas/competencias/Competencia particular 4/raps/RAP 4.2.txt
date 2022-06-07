@@ -1,0 +1,1 @@
+RAP 4.2: Define los fundamentos y etapas del ciclo de vida de pruebas del desarrollo del software.

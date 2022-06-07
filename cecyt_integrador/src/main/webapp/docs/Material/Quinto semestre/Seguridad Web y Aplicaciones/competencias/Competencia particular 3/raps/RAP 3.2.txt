@@ -1,0 +1,1 @@
+RAP 3.2 Describe la seguridad usada en las aplicaciones de correo electrónico a partir de estándares.

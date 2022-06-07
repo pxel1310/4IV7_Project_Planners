@@ -1,0 +1,6 @@
+UNIDAD DE APRENDIZAJE: Introducción a los Sistemas Distribuidos
+UNIDAD DE APRENDIZAJE: Seguridad Web y Aplicaciones
+CARRERA: Técnico en programación
+AREA: Tecnológica
+SEMESTRE: Quinto
+COMPETENCIA GENERAL: Desarrolla Sistemas Distribuidos empleando modelos establecidos en la interconexión de redes y las tecnologías de la información, con base en protocolos y estándares de la industria del software.

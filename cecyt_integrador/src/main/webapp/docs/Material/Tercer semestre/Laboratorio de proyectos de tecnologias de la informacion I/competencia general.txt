@@ -1,0 +1,5 @@
+UNIDAD DE APRENDIZAJE:Laboratorio de proyectos de tecnologías de la información I
+CARRERA:Técnico en programación
+AREA:Tecnológica
+SEMESTRE:Tercero
+COMPETENCIA GENERAL:Desarrolla proyectos de software, poniendo en práctica los conocimientos de administración de proyectos de tecnologías de la información y fundamentos y elementos de programación orientada a objetos, en función de las necesidades de la Industria del Software.

@@ -1,0 +1,8 @@
+Ingeniería del Software. Un enfoque Práctico, Pressman, Roger McGrawHill, 2005.
+Desarrollo y Gestión de Proyectos Informáticos, McConnell, Steve, McGrawHill, 1997.
+Aprendiendo UML en 24 Horas, Schmuller, Joseph, Prentice Hall, 2001.
+Ingeniería del Software, Somerville, Ian, Pearson Addison Weasley, 2005.
+Taller de Lectura y Redacción 1, Torres, francisco J. de la / Dufóo Maciel, Silva, McGrawHill, 2005.
+Taller de Lectura y Redacción 2, Torres, francisco J. de la / Dufóo Maciel, Silva, McGrawHill, 2005. 
+Lenguaje y Expresión 1 y 2, Río, María Asunción del, McGrawHill, 2003. 
+Estudio para Determinar la Cantidad y Calidad de Recursos Humanos Necesarios para el Desarrollo de la Industria de Software en México, Universidad Autónoma Metropolitana, Secretaría de Economía, 2004.

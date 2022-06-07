@@ -1,0 +1,2 @@
+Miguel Ángel Rodríguez, Java RMI: Descripción General, Modelo de Objetos Distribuidoshttp://www.mcc.unam.mx/~cursos/Alg oritmos/javaDC99-2/RMI1.html , 29/Octubre/2009
+Universidad del País Vasco, RMI, http://www.sc.ehu.es/acwlaalm/fundamentos/Labo ratorio_RMI.pdf , 29/Octubre/2009

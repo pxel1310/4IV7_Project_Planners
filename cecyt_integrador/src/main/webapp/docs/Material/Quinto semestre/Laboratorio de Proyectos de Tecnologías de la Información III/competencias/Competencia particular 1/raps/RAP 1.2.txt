@@ -1,0 +1,1 @@
+RAP 1.2 Realiza el plan estratégico del proyecto de software con base a requerimientos especificados.

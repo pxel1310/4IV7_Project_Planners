@@ -1,0 +1,5 @@
+UNIDAD DE APRENDIZAJE: Introducción a la Ingeniería de Pruebas
+CARRERA: Técnico en programación
+AREA: Tecnológica
+SEMESTRE: Quinto
+COMPETENCIA GENERAL:Incorpora indicadores en la fase de pruebas para determinar calidad y eficiencia en los códigos de las aplicaciones de software.

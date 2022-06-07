@@ -1,0 +1,1 @@
+RAP 1.1 Describe los elementos básicos que componen un sistema distribuido.

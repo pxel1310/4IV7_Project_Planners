@@ -1,0 +1,1 @@
+RAP 3.1: Planea la gestión del cambio en el proceso de gestión de configuraciones.

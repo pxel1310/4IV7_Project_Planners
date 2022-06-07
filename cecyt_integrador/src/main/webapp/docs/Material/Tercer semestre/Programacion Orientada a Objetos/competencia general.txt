@@ -1,0 +1,5 @@
+UNIDAD DE APRENDIZAJE:Programación orientada a objetos I
+CARRERA:Técnico en programación
+AREA:Tecnológica
+SEMESTRE:Tercero 
+COMPETENCIA GENERAL:Aplica los fundamentos y elementos del paradigma de programación Orientado a Objetos interpretando modelos conceptuales según el contexto del problema a través de herramientas de programación.

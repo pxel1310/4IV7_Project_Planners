@@ -1,0 +1,5 @@
+UNIDAD DE APRENDIZAJE: Proyecto Integrador
+CARRERA: Técnico en programación
+AREA: Tecnológica
+SEMESTRE: Sexto 
+COMPETENCIA GENERAL: Desarrolla un proyecto con transferencia tecnológica a los diferentes sectores productivos, donde se apliquen los conocimientos adquiridos en las unidades de aprendizaje del plan de estudios de la carrera, beneficiando el desarrollo de la Industria del Software

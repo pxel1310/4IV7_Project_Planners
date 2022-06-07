@@ -1,0 +1,7 @@
+Manual de Referencia Java 2, Herbert Schildt, Mc Graw Hill 2006.
+Java: A Beginner’s Guide 4th Ed., Herbert Schildt, Mc Graw Hill 2007.
+Aprendiendo Programación Orientada a Objetos en 21 lecciones avanzadas, Sintes Anthony, Pearson 2004.
+Java 2. Curso de Programación, Ceballos Francisco Javier, Alfaomega 2003.
+Java Cómo programar, Harvey M. Deitel and Paul J. Deitel, Pearson 2009.
+El Lenguaje Unificado de Modelado, Booch Grady, Rumbaugh James, Adison Wesley 1999.
+Aprendiendo UML en 24 horas, Schmuller Joseph, Pearson 2004.

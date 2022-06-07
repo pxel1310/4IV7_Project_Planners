@@ -1,0 +1,1 @@
+RAP 1.3: Identifica filosofía, conceptos, notación, técnicas, procesos, valores y principios del paradigma ágil de desarrollo de Software.

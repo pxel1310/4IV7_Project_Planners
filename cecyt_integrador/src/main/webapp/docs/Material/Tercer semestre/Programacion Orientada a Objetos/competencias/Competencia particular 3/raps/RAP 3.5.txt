@@ -1,0 +1,1 @@
+RAP 3.5: Analiza la forma de organizar los recursos de la memoria aplicando conceptos y elementos de hilos en la solución de problemas de desarrollo de software.
