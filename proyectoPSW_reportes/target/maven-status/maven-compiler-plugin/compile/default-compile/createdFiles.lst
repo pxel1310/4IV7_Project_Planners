@@ -1,0 +1,11 @@
+mvc\Modelo\CPrivilegio.class
+mvc\Servlet\servletPersona.class
+mvc\Modelo\DReporte.class
+mvc\Control\Conexion.class
+mvc\Control\AccionesPersona.class
+mvc\Modelo\MPersona.class
+mvc\Servlet\servletEquipo.class
+mvc\Control\AccionesReportes.class
+mvc\Servlet\servletReporte.class
+mvc\Control\AccionesEquipo.class
+mvc\Modelo\DEquipo.class

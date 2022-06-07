@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <title>Maquinas Batiz</title>
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400|Roboto:300,400,700">
+  <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+  <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="icon" href="assets/img/ico.png">
+</head>
+
+<body>
+  <nav class="navbar navbar-dark navbar-expand-md bg-dark py-3" id="navbar-main">
+    <div class="container"><a class="navbar-brand d-flex align-items-center" href="https://www.cecyt9.ipn.mx#" target="_blank">
+        <span class="bs-icon-sm bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center me-2 bs-icon">
+          <img id="img-nav" src="assets/img/icono.png"></span><span id="spans">CECyT 9 "Juan de Dios Bátiz"</span></a>
+      <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1">
+        <span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navcol-1">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item"></li>
+        </ul><a class="nav-link text-light" href="iniciarSesion.jsp">Iniciar Sesion</a>
+        <div class="dropdown"><a class="dropdown-toggle text-light nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#">Registrarse</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="vistas/registrarAlumno.jsp">Registrar Alumno</a>
+            <a class="dropdown-item" href="vistas/registrarEmpleado.jsp">Registrar Empleado</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <section class="py-4 py-xl-5">
+    <div class="container d-flex justify-content-center" id="container-img-index">
+      <div class="border rounded border-0 d-flex flex-column justify-content-center align-items-center p-4 py-5" id="div-img-index">
+        <div class="row d-flex justify-content-center">
+          <div class="col-md-10 col-xl-8 text-center d-flex d-sm-flex d-md-flex justify-content-center align-items-center mx-auto justify-content-md-start align-items-md-center justify-content-xl-center">
+            <div>
+              <h1 class="text-uppercase fw-bold mb-3 text-light">Realiza, edita y consulta reportes de los equipos de los laboratorios<br></h1>
+              <p class="mb-4 invisible">Etiam a rutrum, mauris lectus aptent convallis. Fusce vulputate aliquam, sagittis odio metus. Nulla porttitor vivamus viverra laoreet, aliquam netus.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="title-cards">
+    <h1 class="h2 align-content-center">¿Cómo funciona?<br></h1>
+  </div>
+  <div class="container-card">
+
+    <div class="card">
+      <figure>
+        <img src="assets/img/usuarios.jpg">
+      </figure>
+      <div class="contenido-card">
+        <h3>Usuarios</h3>
+        <p>Existen diferentes tipos de usuarios, cada usuario tiene un privilegio
+          distinto lo que permite llevar un control de los reportes que estan en sistema,
+          registra el tipo de usuario que mas se ajuste a lo desea hacer.</p>
+        <div class="dropdown">
+          <a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#">Registrarse</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="vistas/registrarAlumno.jsp">Registrar Alumno</a>
+            <a class="dropdown-item" href="vistas/registrarEmpleado.jsp">Registrar Empleado</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <figure>
+        <img src="assets/img/Reporte-1.png">
+      </figure>
+      <div class="contenido-card">
+        <h3>Reportes</h3>
+        <p>Nuestro sistema guarda los reportes una vez regsitrados y solo los podra
+          editar o eliminar el usuario que lo creo o una de nuestros administradores
+          solo si el usuario asi lo desea, para crear los reportes es necesario tener un usuario
+          registrado e iniciar sesion</p>
+        <a href="iniciarSesion.jsp">Iniciar sesion</a>
+      </div>
+    </div>
+    <div class="card">
+      <figure>
+        <img src="assets/img/visualizar.jpeg">
+      </figure>
+      <div class="contenido-card">
+        <h3>Invitado</h3>
+        <p>Si asi lo desea, podra visualizar los reportes sin haber registrado un
+          usuario, la condicion es que usted no podra crear un nuevo reporte ni editar
+          uno ya existente.</p>
+        <a href="vistas/consultarReportes.jsp">Consultar reportes</a>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="row">
+      <div class="col-sm-6 col-md-4 footer-navigation">
+        <h3><a href="#"><img id="img-nav" src="assets/img/icono.png"></a></h3>
+        <p class="links">
+          <a href="#">Incio</a><strong> · </strong><a href="#">Consultar reportes</a>
+        </p>
+        <p class="company-name">Reportes Maquinas CECyT 9 © 2022</p>
+      </div>
+      <div class="col-md-4 footer-about">
+        <h4><br>Garcia Gomez Jaret Xchel y Gomez Herrera Axel<br><br></h4>
+        <p>4IV7<br>Programación de Servicios Web<br></p>
+        <div class="social-links social-icons">
+          <a href="https://github.com/P0T4TO1/4IV7_PSW_Garcia-Gomez-Jaret-Xchel.git" target="_blank"">
+                        <i class=" fa fa-github"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
