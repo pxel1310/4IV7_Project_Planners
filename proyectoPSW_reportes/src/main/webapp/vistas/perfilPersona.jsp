@@ -199,30 +199,4 @@
             </div>
         </div>
     </div>
-    <footer>
-        <div class="row">
-            <div class="col-sm-6 col-md-4 footer-navigation">
-                <h3><a href="#"><img id="img-nav" src="../assets/img/icono.png"></a></h3><p class="links">
-                    <a href="inicioPersona.jsp">Incio</a><strong> · </strong><a href="#">Consultar reportes</a></p>
-                <p class="company-name">Reportes Maquinas CECyT 9 © 2022</p>
-            </div>
-            <div class="col-md-4 footer-about">
-                <h4><br>Garcia Gomez Jaret Xchel y Gomez Herrera Axel<br><br></h4>
-                <p>4IV7<br>Programación de Servicios Web<br></p>
-                <div class="social-links social-icons">
-                    <a href="https://github.com/P0T4TO1/4IV7_PSW_Garcia-Gomez-Jaret-Xchel.git" target="_blank"">
-                        <i class="fa fa-github"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
-    <script>
-        window.location.hash="no-back-button";
-        window.location.hash="Again-No-back-button";//esta linea es necesaria para chrome
-        window.onhashchange=function(){window.location.hash="no-back-button";}
-</script>
-</body>
-
-</html>
+    <jsp:include page="footer.jsp" />

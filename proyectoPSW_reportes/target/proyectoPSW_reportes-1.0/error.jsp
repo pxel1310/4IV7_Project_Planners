@@ -112,7 +112,7 @@
             </div>
         </div>
     </section>
-    <footer style="margin-top: 13rem">
+    <footer style="margin-top: 11rem">
         <div class="row">
             <div class="col-sm-6 col-md-4 footer-navigation">
                 <h3><a href="#"><img id="img-nav" src="assets/img/icono.png"></a></h3><p class="links">
@@ -120,10 +120,15 @@
                 <p class="company-name">Reportes Maquinas CECyT 9 © 2022</p>
             </div>
             <div class="col-md-4 footer-about">
-                <h4><br>Garcia Gomez Jaret Xchel y Gomez Herrera Axel<br><br></h4>
+                <ul class="container-fluid" style="margin-top: 1rem;">
+                    <li>Ayala González Ian</li>
+                    <li>García Gómez Jaret Xchel</li>
+                    <li>Gómez Herrera Axel</li>
+                    <li>Garza Robles Gerardo</li>
+                </ul>
                 <p>4IV7<br>Programación de Servicios Web<br></p>
                 <div class="social-links social-icons">
-                    <a href="https://github.com/P0T4TO1/4IV7_PSW_Garcia-Gomez-Jaret-Xchel.git" target="_blank"">
+                    <a href="https://github.com/pxel1310/4IV7_Project_Planners/tree/main/proyectoPSW_reportes" target="_blank">
                         <i class="fa fa-github"></i>
                     </a>
                 </div>
