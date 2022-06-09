@@ -18,7 +18,7 @@ import java.util.List;
 public class AccionesPersona {
     
     public static int registrarEmpleado(MPersona p){
-        int estatus = 0;
+        int estatus = 0, estatus2 = 0, id;
         
         try{
             Connection con = Conexion.getConection();
@@ -47,6 +47,40 @@ public class AccionesPersona {
             //ejecutar la querry
             estatus = ps.executeUpdate();
             
+            try{
+                MPersona per = new MPersona();
+                
+                String q2 = "select persona_id from mpersona where persona_nombre = ?";
+                
+                PreparedStatement ps2 = con.prepareStatement(q2);
+            
+                ps2.setString(1, p.getPersona_nombre());
+
+                ResultSet rs = ps2.executeQuery();
+                
+                if(rs.next()){
+                    per.setPersona_id(rs.getInt(1));
+                }
+                System.out.println("Id extraido");
+                try{
+                    String q3 = "insert into ereportespersona(persona_id) "
+                            + "values(?)";
+                    
+                    PreparedStatement ps3 = con.prepareStatement(q3);
+            
+                    ps3.setInt(1, per.getPersona_id());
+                    
+                    estatus2 = ps3.executeUpdate();
+                    
+                    System.out.println("Registro ereportespersona exitoso");
+                }catch(Exception ex3){
+                    System.out.println("Error ereportespersona");
+                    System.out.println(ex3.getMessage());
+                }
+            }catch(Exception ex2){
+                System.out.println("Error obtener id registro");
+                System.out.println(ex2.getMessage());
+            }          
             System.out.println("Registro Exitoso");
             con.close();
             
@@ -60,7 +94,7 @@ public class AccionesPersona {
     
     
     public static int registrarAlumno(MPersona p){
-        int estatus = 0;
+        int estatus = 0, estatus2 = 0;
         
         try{
             Connection con = Conexion.getConection();
@@ -88,7 +122,41 @@ public class AccionesPersona {
             
             //ejecutar la querry
             estatus = ps.executeUpdate();
+               
+            try{
+                MPersona per = new MPersona();
+                
+                String q2 = "select persona_id from mpersona where persona_nombre = ?";
+                
+                PreparedStatement ps2 = con.prepareStatement(q2);
             
+                ps2.setString(1, p.getPersona_nombre());
+
+                ResultSet rs = ps2.executeQuery();
+                
+                if(rs.next()){
+                    per.setPersona_id(rs.getInt(1));
+                }
+                System.out.println("Id extraido");
+                try{
+                    String q3 = "insert into ereportespersona(persona_id) "
+                            + "values(?)";
+                    
+                    PreparedStatement ps3 = con.prepareStatement(q3);
+            
+                    ps3.setInt(1, per.getPersona_id());
+                    
+                    estatus2 = ps3.executeUpdate();
+                    
+                    System.out.println("Registro ereportespersona exitoso");
+                }catch(Exception ex3){
+                    System.out.println("Error ereportespersona");
+                    System.out.println(ex3.getMessage());
+                }
+            }catch(Exception ex2){
+                System.out.println("Error obtener id registro");
+                System.out.println(ex2.getMessage());
+            }
             System.out.println("Registro Exitoso");
             con.close();
             
@@ -293,4 +361,4 @@ public class AccionesPersona {
         }       
         return lista;       
     }
-}
+}  

@@ -99,7 +99,6 @@
                                 <th>Usuario que levanto el reporte</th>
                                 <th>Prioridad</th>
                                 <th>Estado</th>
-                                <th>Asignatura</th>
                                 <th>Fecha</th>
                                 <th>Hora</th>
                                 <th>Consultar equipo</th>
@@ -120,19 +119,18 @@
                                 <td><%=r.getPersonareporte_user()%></td>
                                 <td><%=r.getPrioridad_tipo()%></td>
                                 <td><%=r.getEstadoreporte_tipo()%></td>
-                                <td><%=r.getAsignatura_nombre()%></td>
                                 <td><%=r.getFechareporte()%></td>
                                 <td><%=r.getHorareporte()%></td>                               
                                 <td><a href="misReportes.jsp?etiquetaEquipo=<%=r.getEtiqueta_nombre()%>&id=<%=sesionusu.getAttribute("id")%>">
                                         <button class="btn btn-primary btn-reportes" type="button">Consultar</button>
                                     </a>
                                 </td>
-                                <td><a href="#">
+                                <td><a href="editarReporte.jsp?reporte_id=<%=r.getReporte_id()%>">
                                         <button class="btn btn-primary btn-reportes" type="button"><span>
                                                 <i class="far fa-edit"></i></span></button>
                                     </a>
                                 </td>
-                                <td><a href="#">
+                                <td><a href="../servletReporte?accion=eliminarReporte&rep_id=<%=r.getReporte_id()%>">
                                         <button class="btn btn-primary btn-reportes" type="button"><span>
                                                 <i class="far fa-trash-alt"></i></span></button>
                                     </a>
@@ -148,7 +146,6 @@
                                 <td><strong>Usuario que levanto el reporte</strong></td>
                                 <td><strong>Prioridad</strong></td>
                                 <td><strong>Estado</strong></td>
-                                <td><strong>Asignatura</strong></td>
                                 <td><strong>Fecha</strong></td>
                                 <td><strong>Hora</strong></td>
                                 <td><strong>Consultar equipo</strong></td>

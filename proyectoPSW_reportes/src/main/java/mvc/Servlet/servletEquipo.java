@@ -49,8 +49,8 @@ public class servletEquipo extends HttpServlet {
                         eliminarEquipo(request, response);
                         break;
                     case "actulaizarEquipo":
-                        System.out.println("Registrar Alumno");
-
+                        System.out.println("Actualizar Equipo");
+                        actualizarEquipo(request, response);
                         break;
                     default:
                         response.sendRedirect("vistas/consultarReportes.jsp");
@@ -122,6 +122,43 @@ public class servletEquipo extends HttpServlet {
             response.sendRedirect("error.jsp");
         }
     } 
+    
+    public void actualizarEquipo(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException{
+        String etiqueta, cpuserial, monitor, config, problema;
+        int lab_id, marca_id, accesorio_id, estado_id;
+        
+        etiqueta = request.getParameter("etiqueta2");
+        lab_id = Integer.parseInt(request.getParameter("lab2"));
+        marca_id = Integer.parseInt(request.getParameter("marca2"));
+        cpuserial = request.getParameter("serial2");
+        accesorio_id = Integer.parseInt(request.getParameter("accesorio2"));
+        monitor = request.getParameter("monitor2");
+        config = request.getParameter("config2");
+        estado_id = Integer.parseInt(request.getParameter("estadoe2"));
+        problema = request.getParameter("problema2");
+        
+        DEquipo e = new DEquipo();
+        
+        e.setEquipo_etiqueta(etiqueta);
+        e.setLab_id(lab_id);
+        e.setMarca_id(marca_id);
+        e.setCpu_serial(cpuserial);
+        e.setAccesorio_id(accesorio_id);
+        e.setMonitor_id(monitor);
+        e.setConfig_id(config);
+        e.setEstadoequipo_id(estado_id);
+        e.setProblema(problema);
+        
+        int estatus = AccionesEquipo.actualizarEquipo(e);
+        
+        if(estatus > 0){
+            response.sendRedirect("vistas/update2.jsp");
+        }else{
+            request.setAttribute("msje1", "Error al actualizar usuario");
+            request.getRequestDispatcher("vistas/editarEquipo.jsp").forward(request, response);
+        }
+    }
+    
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
     /**
      * Handles the HTTP <code>GET</code> method.

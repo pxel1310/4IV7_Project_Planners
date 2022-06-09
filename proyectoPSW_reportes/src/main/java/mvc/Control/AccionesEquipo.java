@@ -254,4 +254,40 @@ public class AccionesEquipo {
         }
         return estatus;        
     }
+    
+    public static int actualizarEquipo(DEquipo e){
+        int estatus = 0;
+        
+        try{
+            Connection con = Conexion.getConection();
+            
+            String q = "update dequipo set equipo_etiqueta = ?, lab_id = ?, marca_id = ?, "
+                    + "cpu_serial = ?, accesorio_id = ?, monitor_id = ?, config_id = ?, "
+                    + "edoEquipo_id = ?, problema = ? "
+                    + "where equipo_etiqueta = ?";
+            
+            PreparedStatement ps = con.prepareStatement(q);
+            
+            ps.setString(1, e.getEquipo_etiqueta());
+            ps.setInt(2, e.getLab_id());
+            ps.setInt(3, e.getMarca_id());
+            ps.setString(4, e.getCpu_serial());
+            ps.setInt(5, e.getAccesorio_id());
+            ps.setString(6, e.getMonitor_id());
+            ps.setString(7, e.getConfig_id());
+            ps.setInt(8, e.getEstadoequipo_id());
+            ps.setString(9, e.getProblema());
+            ps.setString(10, e.getEquipo_etiqueta());
+            
+            estatus = ps.executeUpdate();
+
+            System.out.println("Se actualizo el equipo");
+            con.close();
+                      
+        }catch(Exception ex){
+            System.out.println("Error al actualizar equipo");
+            System.out.println(ex.getMessage());
+        }      
+        return estatus;    
+    }
 }

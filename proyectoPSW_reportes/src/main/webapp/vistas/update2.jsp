@@ -58,7 +58,7 @@
     <section class="py-4 py-xl-5">
         <div class="container">
             <div class="text-center p-4 p-lg-5">
-                <h1 class="fw-bold mb-4">Perfil actualizado con exito</h1>
+                <h1 class="fw-bold mb-4">Actualizado con exito</h1>
                 <a href="inicioPersona.jsp">
                     <button class="btn btn-primary fs-5 me-2 py-2 px-4" id="btn-updates" type="button">Inicio</button>
                 </a>

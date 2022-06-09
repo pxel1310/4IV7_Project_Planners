@@ -95,7 +95,7 @@
                                 <p class="text-primary m-0 fw-bold" id="p-profile">Datos del reporte</p>
                             </div>
                             <div class="card-body">
-                                <form method="post" action="..servletReporte?accion=crearReporte">
+                                <form method="post" action="../servletReporte?accion=crearReporte">
                                     <div class="row">
                                         <div class="col">
                                             <div class="mb-3"><label class="form-label" for="username">
@@ -103,27 +103,12 @@
                                                 <select class="form-select" name="etiqueta_reporte">
                                                     <optgroup label="Etiquetas">
                                                         <%
+                                                        int value = 1;
                                                         List<DEquipo> lista = AccionesEquipo.getAllEtiquetas();
                                                         for(DEquipo e : lista){
                                                         %>
-                                                        <option value=""><%=e.getEquipo_etiqueta()%></option>
+                                                        <option value="<%=value++%>"><%=e.getEquipo_etiqueta()%></option>
                                                         <%}%>
-                                                    </optgroup>
-                                                </select>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col">
-                                            <div class="mb-3"><label class="form-label" for="first_name">
-                                                    <strong>Asignatura</strong><br>
-                                                </label>
-                                                <select class="form-select" name="asignatura">
-                                                    <optgroup label="Asignaturas">
-                                                        <option value="1" selected="">PSW</option>
-                                                        <option value="2">LPTI</option>
-                                                        <option value="3">Bases de Datos</option>
-                                                        <option value="4">TPPC</option>
                                                     </optgroup>
                                                 </select>
                                             </div>

@@ -55,7 +55,7 @@
                             <div class="col-sm-6">
                                 <select class="form-select" name="sexo">
                                     <optgroup label="Sexo">
-                                        <option value="none" selected="">Sexo</option>
+                                        <option value="none" selected disabled hidden>Sexo</option>
                                         <option>Masculino</option>
                                         <option>Femenino</option>
                                     </optgroup>
@@ -84,6 +84,7 @@
                         <div class="mb-3">
                             <select class="form-select" name="rol">
                                 <optgroup label="Rol">
+                                    <option value="none" selected disabled hidden>Rol</option>
                                     <option value="2">Docente</option>
                                     <option value="4">Administrador</option>
                                 </optgroup>

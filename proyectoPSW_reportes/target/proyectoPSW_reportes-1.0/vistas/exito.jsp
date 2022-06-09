@@ -85,8 +85,8 @@
                 </ul><a class="nav-link text-light" href="iniciarSesion.jsp">Iniciar Sesion</a>
                 <div class="dropdown"><a class="dropdown-toggle text-light nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#">Registrarse</a>
                     <div class="dropdown-menu">
-                      <a class="dropdown-item" href="vistas/registrarAlumno.jsp">Registrar Alumno</a>
-                      <a class="dropdown-item" href="vistas/registrarEmpleado.jsp">Registrar Empleado</a>
+                      <a class="dropdown-item" href="registrarAlumno.jsp">Registrar Alumno</a>
+                      <a class="dropdown-item" href="registrarEmpleado.jsp">Registrar Empleado</a>
                     </div>
                 </div>
             </div>

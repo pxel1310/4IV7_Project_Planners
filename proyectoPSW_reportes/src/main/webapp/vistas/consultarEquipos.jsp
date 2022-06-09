@@ -133,7 +133,7 @@
                                 <td><%=e.getEstadoequipo_tipo()%></td>
                                 <td><%=e.getProblema()%></td>
                             <%if(rol == 4){%>    
-                                <td><a href="editarEquipo?etiqueta=<%=e.getEquipo_etiqueta()%>">
+                                <td><a href="editarEquipo.jsp?etiqueta_nom=<%=e.getEquipo_etiqueta()%>">
                                         <button class="btn btn-primary btn-reportes" type="button">
                                             <i class="far fa-edit"></i>
                                         </button>

@@ -158,6 +158,7 @@
                                                 <select class="form-select" id="sexo-select" 
                                                         value="<%=p.getPersona_sexo()%>" name="sexo2">
                                                     <optgroup label="Sexo">
+                                                        <option value="none" selected disabled hidden>Sexo</option>
                                                         <option value="1" selected="">Masculino</option>
                                                         <option value="2">Femenino</option>
                                                     </optgroup>

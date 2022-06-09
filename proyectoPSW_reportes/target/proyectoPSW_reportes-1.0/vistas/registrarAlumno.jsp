@@ -58,6 +58,7 @@
                             <div class="col-sm-6">
                                 <select class="form-select" name="sexo">
                                     <optgroup label="Sexo">
+                                        <option value="none" selected disabled hidden>Sexo</option>
                                         <option>Masculino</option>
                                         <option>Femenino</option>
                                     </optgroup>
@@ -88,6 +89,7 @@
                         <div class="mb-3">
                             <select class="form-select" name="grupo">
                                 <optgroup label="Grupo">
+                                    <option value="none" selected disabled hidden>Grupo</option>
                                     <option value="1">4IV7</option>
                                     <option value="2">4IV8</option>
                                     <option value="3">4IV9</option>
