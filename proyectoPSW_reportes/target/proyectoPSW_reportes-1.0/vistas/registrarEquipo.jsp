@@ -32,25 +32,7 @@
     <link rel="stylesheet" href="../assets/css/Manage-Users.css">
     <link rel="stylesheet" href="../assets/css/styles.css">
     <link rel="icon" href="assets/img/ico.png">
-</head>
-
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>maquinasbatiz</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400|Roboto:300,400,700">
-    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
-    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
-    <link rel="stylesheet" href="assets/css/Manage-Users.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
-</head>
-
+</head> 
 <body>
     <nav class="navbar navbar-dark navbar-expand-md bg-dark py-3" id="navbar-main">
         <div class="container"><a class="navbar-brand d-flex align-items-center" href="https://www.cecyt9.ipn.mx#" target="_blank">

@@ -105,8 +105,9 @@
                                                 <label class="form-label" for="username">
                                                     <strong>Boleta</strong>
                                                 </label>
-                                                <input class="form-control" type="number" id="username"
-                                                       placeholder="Boleta" name="boleta_alumno2" value="<%=p.getAlumno_boleta()%>">
+                                                <input class="form-control" type="text" id="bol_usu"
+                                                       placeholder="Boleta" name="boleta_alumno2" value="<%=p.getAlumno_boleta()%>"
+                                                       onkeypress="return soloNumeros(event)">
                                             </div>
                                         </div>
                                         <%}else if(rol == 2 || rol == 4){                                       
@@ -116,17 +117,18 @@
                                                 <label class="form-label" for="username">
                                                     <strong>Numero de empleado</strong>
                                                 </label>
-                                                <input class="form-control" type="number" id="username"
-                                                       placeholder="Numero de Empleado" name="num_empleado2" value="<%=p.getEmpleado_num()%>">
+                                                <input class="form-control" type="text" id="bol_usu"
+                                                       placeholder="Numero de Empleado" onkeypress="return soloNumeros(event)" 
+                                                       name="num_empleado2" value="<%=p.getEmpleado_num()%>">
                                             </div>
                                         </div>
                                         <%}%>
                                         <div class="col">
                                             <div class="mb-3">
-                                                <label class="form-label" for="email">
+                                                <label class="form-label" for="nombre2">
                                                     <strong>Nombre</strong><br>
                                                 </label>
-                                                <input class="form-control" type="text" id="nombre"
+                                                <input class="form-control" type="text" id="nom_usu"
                                                        placeholder="Nombre" name="nombre2" value="<%=p.getPersona_nombre()%>">
                                             </div>
                                         </div>
@@ -137,7 +139,7 @@
                                                 <label class="form-label" for="first_name">
                                                     <strong>Apellido Paterno</strong><br>
                                                 </label>
-                                                <input class="form-control" type="text" id="first_name"
+                                                <input class="form-control" type="text" id="app_usu"
                                                        placeholder="Apellido Paterno" name="appat2" value="<%=p.getPersona_appat()%>">
                                             </div>
                                         </div>
@@ -145,7 +147,7 @@
                                             <div class="mb-3">
                                                 <label class="form-label" for="last_name">
                                                     <strong>Apellido Materno</strong><br></label>
-                                                <input class="form-control" type="text" id="last_name"
+                                                <input class="form-control" type="text" id="apm_usu"
                                                        placeholder="Apellido Materno" name="apmat2" value="<%=p.getPersona_apmat()%>">
                                             </div>
                                         </div>

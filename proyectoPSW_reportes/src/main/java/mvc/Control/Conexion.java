@@ -17,14 +17,13 @@ public class Conexion {
         String url, username, password;
         
         url = "jdbc:mysql://localhost/maquinasbatiz";
-        username = "root";
-        password = "227430Jxgg.";
-        //password = "n0m3l0";
+        username = "";
+        password = "";
         
         Connection con = null;
         
         try{
-            Class.forName("com.mysql.cj.jdbc.Driver");
+            Class.forName("com.mysql.jdbc.Driver");
             con = DriverManager.getConnection(url, username, password);
             System.out.println("Se conecto con la BD");
         }catch(Exception e){
