@@ -12,4 +12,6 @@ public interface UsuarioRepository extends Repository<Usuario>{
     void situacion(Situacion situacion) throws SQLException;
 
     Usuario porEma_usu(String ema_usu) throws SQLException;
+    void guardarSit(Situacion situacion) throws SQLException;
+    void guardar(Usuario usuario) throws SQLException;
 }

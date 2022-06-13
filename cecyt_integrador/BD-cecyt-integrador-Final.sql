@@ -35,7 +35,7 @@ CREATE TABLE `asignaturas` (
   KEY `id_sem` (`id_sem`),
   CONSTRAINT `asignaturas_ibfk_1` FOREIGN KEY (`id_esp`) REFERENCES `especialidades` (`id_esp`) ON DELETE RESTRICT ON UPDATE RESTRICT,
   CONSTRAINT `asignaturas_ibfk_2` FOREIGN KEY (`id_sem`) REFERENCES `semestres` (`id_sem`) ON DELETE RESTRICT ON UPDATE RESTRICT
-) ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=utf8mb3 COLLATE=utf8_spanish_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3 COLLATE=utf8_spanish_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -62,7 +62,7 @@ CREATE TABLE `bibliografias` (
   PRIMARY KEY (`id_bib`),
   KEY `id_asi` (`id_asi`),
   CONSTRAINT `bibliografias_ibfk_2` FOREIGN KEY (`id_asi`) REFERENCES `asignaturas` (`id_asi`)
-) ENGINE=InnoDB AUTO_INCREMENT=15 DEFAULT CHARSET=utf8mb3;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -86,10 +86,11 @@ CREATE TABLE `cogeneral` (
   `id_cog` int unsigned NOT NULL AUTO_INCREMENT,
   `id_asi` int unsigned NOT NULL,
   `con_cog` text NOT NULL,
+  `url_pdf` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id_cog`),
   KEY `id_asi` (`id_asi`),
   CONSTRAINT `cogeneral_ibfk_1` FOREIGN KEY (`id_asi`) REFERENCES `asignaturas` (`id_asi`)
-) ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=utf8mb3;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -98,7 +99,7 @@ CREATE TABLE `cogeneral` (
 
 LOCK TABLES `cogeneral` WRITE;
 /*!40000 ALTER TABLE `cogeneral` DISABLE KEYS */;
-INSERT INTO `cogeneral` VALUES (0,0,'A la izquierda puedes seleccionar la asignatura de tu agrado.'),(1,1,'UNIDAD DE APRENDIZAJE: Administración de proyectos de tecnologías de la información I\r CARRERA:Técnico en programación\r AREA:Tecnológica\r SEMESTRE:Tercero\r COMPETENCIA GENERAL: Administra Proyectos de Tecnologías de la Información implementando herramientas, técnicas, metodologías y estrategias para asegurar la calidad del producto de software.'),(2,2,'UNIDAD DE APRENDIZAJE: Laboratorio de proyectos de tecnologías de la información I\r CARRERA:Técnico en programación\r AREA:Tecnológica\r SEMESTRE:Tercero\r COMPETENCIA GENERAL:Desarrolla proyectos de software, poniendo en práctica los conocimientos de administración de proyectos de tecnologías de la información y fundamentos y elementos de programación orientada a objetos, en fu nción de las necesidades de la Industria del Software.'),(3,3,'UNIDAD DE APRENDIZAJE: Programación orientada a objetos I\r CARRERA:Técnico en programación\r AREA:Tecnológica\r SEMESTRE:Tercero\r COMPETENCIA GENERAL: Aplica los fundamentos y elementos del paradigma de programación Orientado a Objetos interpretando modelos conceptuales según el contexto del problemaa través de herramientas de programación.'),(4,4,'UNIDAD DE APRENDIZAJE: Administración de proyectos de tecnologías de la información II\r CARRERA:Técnico en programación\r AREA:Tecnológica\r SEMESTRE:Cuarto\r COMPETENCIA GENERAL:Integra equipos colaborativos para el desarrollo de software, adquiriendo competencias para la construcción\r  y comercialización de proyectos en función de las necesidades de la industria de software.'),(5,5,'UNIDAD DE APRENDIZAJE: Base de datos\r CARRERA:Técnico en programación\r AREA:Tecnológica\r SEMESTRE:Cuarto\r COMPETENCIA GENERAL:Desarrolla bases de datos normalizadas e implementando políticas de seguridad \r con gestores de bases de datos para la explotación de la información a  través de lenguajes consulta a base de datos.'),(6,6,'UNIDAD DE APRENDIZAJE: Laboratorio de proyectos de tecnologías de la información II\r CARRERA:Técnico en programación\r AREA:Tecnológica\r SEMESTRE:Cuarto\r COMPETENCIA GENERAL: Desarrollar proyectos de software, poniendo en práctica los conocimientos de: Programación y Servicios Web, Base de datos, Administración de proyectos de tecnologías de la información I y Programación orientada a objetos, en función de las necesidades de la Industria del Software.'),(7,7,'UNIDAD DE APRENDIZAJE: Programación y servicios web\r CARRERA: Técnico en programación\r AREA: Tecnológica\r SEMESTRE: Cuarto\r COMPETENCIA GENERAL: Aplica elementos, fundamentos y lenguajes de programación Web, a partir de arquitecturas y  tecnologías incorporadas en los Servicios Web.'),(8,8,'UNIDAD DE APRENDIZAJE: Técnicas de programación personal con calidad\r CARRERA:Técnico en programación\r AREA:Tecnológica\r SEMESTRE:Cuarto\r COMPETENCIA GENERAL:Aplica técnicas para la calidad en el desarrollo de software personal, en  función de metodologías apropiadas y de impacto en la industria de desarrollo de software.'),(9,9,'UNIDAD DE APRENDIZAJE: Automatización de Pruebas\r CARRERA: Técnico en programación\r AREA: Tecnológica\r SEMESTRE: Quinto\r COMPETENCIA GENERAL: Aplica herramientas de automatización de pruebas de software para desarrollar software de calidad.'),(10,10,'UNIDAD DE APRENDIZAJE: Desarrollo Humano y Personal\r CARRERA: Técnico en programación\r AREA: Tecnológica\r SEMESTRE: Quinto\r COMPETENCIA GENERAL:Proyecta una actitud comprometida, con valores y principios humanos y personales para el desarrollo de proyectos de software de impacto social.'),(11,11,'UNIDAD DE APRENDIZAJE: Introducción a la Ingeniería de Pruebas\r CARRERA: Técnico en programación\r AREA: Tecnológica\r SEMESTRE: Quinto\r  COMPETENCIA GENERAL:Incorpora indicadores en la fase de pruebas para determinar  calidad y eficiencia en los códigos de las aplicaciones de software.'),(12,12,'UNIDAD DE APRENDIZAJE: Introducción a los Sistemas Distribuidos\r CARRERA: Técnico en programación\r AREA: Tecnológica\r SEMESTRE: Quinto\r COMPETENCIA GENERAL: Desarrolla Sistemas Distribuidos empleando modelos establecidos en\r la interconexión de redes y las tecnologías de la información, con base en protocolos y estándares de la industria del software.'),(13,13,'UNIDAD DE APRENDIZAJE: Laboratorio de Proyectos de Tecnologías de la Información III\r CARRERA: Técnico en programación\r AREA: Tecnológica\r SEMESTRE: Quinto\r COMPETENCIA GENERAL: Desarrollar proyectos de software, poniendo en práctica los conocimientos teóricos adqueridos en las adignaturas correspondientes al tercer, cuarto y quinto semestre de la Carrera (Introducción a los sistemas distribuidos, Introducción a la Ingeniería de Pruebas y Seguridad web y aplicaciones), en función de las necesidades de la Industria del Software.'),(14,14,'UNIDAD DE APRENDIZAJE: Seguridad Web y Aplicaciones\r CARRERA: Técnico en programación\r AREA: Tecnológica\r SEMESTRE: Quinto\r COMPETENCIA GENERAL: Aplica Seguridad a los sistemas de informacion web y aplicaciones, empleando servicios y mecanismos de seguridad establecidos por  las tecnologias de las informacion, con base en los entandares de la indistria del software.');
+INSERT INTO `cogeneral` VALUES (1,1,'UNIDAD DE APRENDIZAJE: Administración de proyectos de tecnologías de la información I\r CARRERA:Técnico en programación\r AREA:Tecnológica\r SEMESTRE:Tercero\r COMPETENCIA GENERAL: Administra Proyectos de Tecnologías de la Información implementando herramientas, técnicas, metodologías y estrategias para asegurar la calidad del producto de software.','./pdf/PROGRAMACIÓN 3º NIVEL/Administración de Proyectos de Tecnologías de la Información.pdf'),(2,2,'UNIDAD DE APRENDIZAJE: Laboratorio de proyectos de tecnologías de la información I\r CARRERA:Técnico en programación\r AREA:Tecnológica\r SEMESTRE:Tercero\r COMPETENCIA GENERAL:Desarrolla proyectos de software, poniendo en práctica los conocimientos de administración de proyectos de tecnologías de la información y fundamentos y elementos de programación orientada a objetos, en fu nción de las necesidades de la Industria del Software.','./pdf/PROGRAMACIÓN 3º NIVEL/Laboratorio de Proyectos de Tecnologías de la Información I.pdf'),(3,3,'UNIDAD DE APRENDIZAJE: Programación orientada a objetos I\r CARRERA:Técnico en programación\r AREA:Tecnológica\r SEMESTRE:Tercero\r COMPETENCIA GENERAL: Aplica los fundamentos y elementos del paradigma de programación Orientado a Objetos interpretando modelos conceptuales según el contexto del problemaa través de herramientas de programación.','./pdf/PROGRAMACIÓN 3º NIVEL/Programación Orientada a Objetos.pdf'),(4,4,'UNIDAD DE APRENDIZAJE: Administración de proyectos de tecnologías de la información II\r CARRERA:Técnico en programación\r AREA:Tecnológica\r SEMESTRE:Cuarto\r COMPETENCIA GENERAL:Integra equipos colaborativos para el desarrollo de software, adquiriendo competencias para la construcción\r  y comercialización de proyectos en función de las necesidades de la industria de software.','./pdf/PROGRAMACIÓN 4º NIVEL/Administración de Proyectos de Tecnologías de la Información.pdf'),(5,5,'UNIDAD DE APRENDIZAJE: Base de datos\r CARRERA:Técnico en programación\r AREA:Tecnológica\r SEMESTRE:Cuarto\r COMPETENCIA GENERAL:Desarrolla bases de datos normalizadas e implementando políticas de seguridad \r con gestores de bases de datos para la explotación de la información a  través de lenguajes consulta a base de datos.','./pdf/PROGRAMACIÓN 4º NIVEL/Bases de Datos.pdf'),(6,6,'UNIDAD DE APRENDIZAJE: Laboratorio de proyectos de tecnologías de la información II\r CARRERA:Técnico en programación\r AREA:Tecnológica\r SEMESTRE:Cuarto\r COMPETENCIA GENERAL: Desarrollar proyectos de software, poniendo en práctica los conocimientos de: Programación y Servicios Web, Base de datos, Administración de proyectos de tecnologías de la información I y Programación orientada a objetos, en función de las necesidades de la Industria del Software.','./pdf/PROGRAMACIÓN 4º NIVEL/Laboratorio de Proyectos de Tecnologías de la Información II.pdf'),(7,7,'UNIDAD DE APRENDIZAJE: Programación y servicios web\r CARRERA: Técnico en programación\r AREA: Tecnológica\r SEMESTRE: Cuarto\r COMPETENCIA GENERAL: Aplica elementos, fundamentos y lenguajes de programación Web, a partir de arquitecturas y  tecnologías incorporadas en los Servicios Web.','./pdf/PROGRAMACIÓN 4º NIVEL/Programación y Servicios Web.pdf'),(8,8,'UNIDAD DE APRENDIZAJE: Técnicas de programación personal con calidad\r CARRERA:Técnico en programación\r AREA:Tecnológica\r SEMESTRE:Cuarto\r COMPETENCIA GENERAL:Aplica técnicas para la calidad en el desarrollo de software personal, en  función de metodologías apropiadas y de impacto en la industria de desarrollo de software.','./pdf/PROGRAMACIÓN 4º NIVEL/Técnicas de Programación Personal con Calidad.pdf'),(9,9,'UNIDAD DE APRENDIZAJE: Automatización de Pruebas\r CARRERA: Técnico en programación\r AREA: Tecnológica\r SEMESTRE: Quinto\r COMPETENCIA GENERAL: Aplica herramientas de automatización de pruebas de software para desarrollar software de calidad.','./pdf/PROGRAMACIÓN 5º NIVEL/Automatización de Pruebas.pdf'),(10,10,'UNIDAD DE APRENDIZAJE: Desarrollo Humano y Personal\r CARRERA: Técnico en programación\r AREA: Tecnológica\r SEMESTRE: Quinto\r COMPETENCIA GENERAL:Proyecta una actitud comprometida, con valores y principios humanos y personales para el desarrollo de proyectos de software de impacto social.','./pdf/PROGRAMACIÓN 5º NIVEL/Desarrollo Humano y Personal.pdf'),(11,11,'UNIDAD DE APRENDIZAJE: Introducción a la Ingeniería de Pruebas\r CARRERA: Técnico en programación\r AREA: Tecnológica\r SEMESTRE: Quinto\r  COMPETENCIA GENERAL:Incorpora indicadores en la fase de pruebas para determinar  calidad y eficiencia en los códigos de las aplicaciones de software.','./pdf/PROGRAMACIÓN 5º NIVEL/Introducción a la Ingeniería de Pruebas.pdf'),(12,12,'UNIDAD DE APRENDIZAJE: Introducción a los Sistemas Distribuidos\r CARRERA: Técnico en programación\r AREA: Tecnológica\r SEMESTRE: Quinto\r COMPETENCIA GENERAL: Desarrolla Sistemas Distribuidos empleando modelos establecidos en\r la interconexión de redes y las tecnologías de la información, con base en protocolos y estándares de la industria del software.','./pdf/PROGRAMACIÓN 5º NIVEL/Introducción a los Sistemas Distribuidos.pdf'),(13,13,'UNIDAD DE APRENDIZAJE: Laboratorio de Proyectos de Tecnologías de la Información III\r CARRERA: Técnico en programación\r AREA: Tecnológica\r SEMESTRE: Quinto\r COMPETENCIA GENERAL: Desarrollar proyectos de software, poniendo en práctica los conocimientos teóricos adqueridos en las adignaturas correspondientes al tercer, cuarto y quinto semestre de la Carrera (Introducción a los sistemas distribuidos, Introducción a la Ingeniería de Pruebas y Seguridad web y aplicaciones), en función de las necesidades de la Industria del Software.','./pdf/PROGRAMACIÓN 5º NIVEL/Laboratorio de Proyectos de Tecnologías de la Información III.pdf'),(14,14,'UNIDAD DE APRENDIZAJE: Seguridad Web y Aplicaciones\r CARRERA: Técnico en programación\r AREA: Tecnológica\r SEMESTRE: Quinto\r COMPETENCIA GENERAL: Aplica Seguridad a los sistemas de informacion web y aplicaciones, empleando servicios y mecanismos de seguridad establecidos por  las tecnologias de las informacion, con base en los entandares de la indistria del software.','./pdf/PROGRAMACIÓN 5º NIVEL/Seguridad Web y Aplicaciones.pdf');
 /*!40000 ALTER TABLE `cogeneral` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -118,7 +119,7 @@ CREATE TABLE `coparticulares` (
   KEY `nom_cop` (`nom_cop`),
   KEY `id_asi` (`id_asi`),
   CONSTRAINT `coparticulares_ibfk_1` FOREIGN KEY (`id_asi`) REFERENCES `asignaturas` (`id_asi`)
-) ENGINE=InnoDB AUTO_INCREMENT=55 DEFAULT CHARSET=utf8mb3;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -143,7 +144,7 @@ CREATE TABLE `especialidades` (
   `nom_esp` varchar(45) CHARACTER SET utf8mb3 COLLATE utf8_general_ci NOT NULL,
   PRIMARY KEY (`id_esp`),
   KEY `nom_esp` (`nom_esp`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb3 COLLATE=utf8_spanish_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3 COLLATE=utf8_spanish_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -168,7 +169,7 @@ CREATE TABLE `grupos` (
   `nom_gru` varchar(45) CHARACTER SET utf8mb3 COLLATE utf8_general_ci NOT NULL,
   PRIMARY KEY (`id_gru`),
   KEY `nom_gru` (`nom_gru`)
-) ENGINE=InnoDB AUTO_INCREMENT=27 DEFAULT CHARSET=utf8mb3 COLLATE=utf8_spanish_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3 COLLATE=utf8_spanish_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -179,31 +180,6 @@ LOCK TABLES `grupos` WRITE;
 /*!40000 ALTER TABLE `grupos` DISABLE KEYS */;
 INSERT INTO `grupos` VALUES (14,'3IM7'),(15,'3IM8'),(16,'3IM9'),(1,'3IV7'),(2,'3IV8'),(3,'3IV9'),(20,'4IM10'),(17,'4IM7'),(18,'4IM8'),(19,'4IM9'),(7,'4IV10'),(4,'4IV7'),(5,'4IV8'),(6,'4IV9'),(21,'5IM7'),(22,'5IM8'),(23,'5IM9'),(8,'5IV7'),(9,'5IV8'),(10,'5IV9'),(24,'6IM7'),(25,'6IM8'),(26,'6IM9'),(11,'6IV7'),(12,'6IV8'),(13,'6IV9');
 /*!40000 ALTER TABLE `grupos` ENABLE KEYS */;
-UNLOCK TABLES;
-
---
--- Table structure for table `privilegios`
---
-
-DROP TABLE IF EXISTS `privilegios`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `privilegios` (
-  `id_pri` int unsigned NOT NULL AUTO_INCREMENT,
-  `nom_pri` varchar(45) CHARACTER SET utf8mb3 COLLATE utf8_general_ci NOT NULL,
-  PRIMARY KEY (`id_pri`),
-  KEY `nom_pri` (`nom_pri`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb3 COLLATE=utf8_spanish_ci;
-/*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `privilegios`
---
-
-LOCK TABLES `privilegios` WRITE;
-/*!40000 ALTER TABLE `privilegios` DISABLE KEYS */;
-INSERT INTO `privilegios` VALUES (2,'Administrador'),(1,'Alumno');
-/*!40000 ALTER TABLE `privilegios` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -222,7 +198,7 @@ CREATE TABLE `raps` (
   KEY `nom_ram` (`nom_rap`) /*!80000 INVISIBLE */,
   KEY `nom_cop` (`nom_cop`),
   CONSTRAINT `raps_ibfk_1` FOREIGN KEY (`nom_cop`) REFERENCES `coparticulares` (`nom_cop`)
-) ENGINE=InnoDB AUTO_INCREMENT=142 DEFAULT CHARSET=utf8mb3;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -247,7 +223,7 @@ CREATE TABLE `roles` (
   `nom_rol` varchar(28) CHARACTER SET utf8mb3 COLLATE utf8_general_ci NOT NULL,
   PRIMARY KEY (`id_rol`),
   KEY `nom_rol` (`nom_rol`) /*!80000 INVISIBLE */
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb3 COLLATE=utf8_spanish_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3 COLLATE=utf8_spanish_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -256,7 +232,7 @@ CREATE TABLE `roles` (
 
 LOCK TABLES `roles` WRITE;
 /*!40000 ALTER TABLE `roles` DISABLE KEYS */;
-INSERT INTO `roles` VALUES (1,'Alumno'),(2,'Administrador');
+INSERT INTO `roles` VALUES (1,'Alumno'),(2,'Administrador'),(3,'Maestro');
 /*!40000 ALTER TABLE `roles` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -272,7 +248,7 @@ CREATE TABLE `semestres` (
   `nom_sem` varchar(45) CHARACTER SET utf8mb3 COLLATE utf8_general_ci NOT NULL,
   PRIMARY KEY (`id_sem`),
   KEY `nom_sem` (`nom_sem`)
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb3 COLLATE=utf8_spanish_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3 COLLATE=utf8_spanish_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -297,7 +273,7 @@ CREATE TABLE `sexos` (
   `nom_sex` varchar(28) CHARACTER SET utf8mb3 COLLATE utf8_general_ci NOT NULL,
   PRIMARY KEY (`id_sex`),
   KEY `nom_sex` (`nom_sex`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb3 COLLATE=utf8_spanish_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3 COLLATE=utf8_spanish_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -342,7 +318,7 @@ CREATE TABLE `situaciones` (
 
 LOCK TABLES `situaciones` WRITE;
 /*!40000 ALTER TABLE `situaciones` DISABLE KEYS */;
-INSERT INTO `situaciones` VALUES (2021090043,4,2,1,2),(2021090083,4,2,2,2),(2021090613,4,2,2,2);
+INSERT INTO `situaciones` VALUES (2021090043,4,2,1,2),(2021090083,4,2,2,2),(2021090116,14,1,1,1),(2021090613,4,2,2,2),(2021091516,14,1,1,1);
 /*!40000 ALTER TABLE `situaciones` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -358,7 +334,7 @@ CREATE TABLE `turnos` (
   `nom_tur` varchar(45) CHARACTER SET utf8mb3 COLLATE utf8_general_ci NOT NULL,
   PRIMARY KEY (`id_tur`),
   KEY `nom_tur` (`nom_tur`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb3 COLLATE=utf8_spanish_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3 COLLATE=utf8_spanish_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -390,17 +366,13 @@ CREATE TABLE `usuarios` (
   `cre_usu` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
   `act_usu` int unsigned NOT NULL DEFAULT '1',
   `id_rol` int unsigned NOT NULL DEFAULT '1',
-  `id_pri` int unsigned NOT NULL DEFAULT '1',
   PRIMARY KEY (`bol_usu`),
   UNIQUE KEY `ema_usu` (`ema_usu`) /*!80000 INVISIBLE */,
-  UNIQUE KEY `app_usu_UNIQUE` (`app_usu`),
   KEY `id_sex` (`id_sex`),
   KEY `id_rol` (`id_rol`),
-  KEY `id_pri` (`id_pri`),
   KEY `bol_usu` (`bol_usu`),
   CONSTRAINT `usuarios_ibfk_1` FOREIGN KEY (`id_sex`) REFERENCES `sexos` (`id_sex`) ON DELETE RESTRICT ON UPDATE RESTRICT,
-  CONSTRAINT `usuarios_ibfk_2` FOREIGN KEY (`id_rol`) REFERENCES `roles` (`id_rol`) ON DELETE RESTRICT ON UPDATE RESTRICT,
-  CONSTRAINT `usuarios_ibfk_3` FOREIGN KEY (`id_pri`) REFERENCES `privilegios` (`id_pri`) ON DELETE RESTRICT ON UPDATE RESTRICT
+  CONSTRAINT `usuarios_ibfk_2` FOREIGN KEY (`id_rol`) REFERENCES `roles` (`id_rol`) ON DELETE RESTRICT ON UPDATE RESTRICT
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3 COLLATE=utf8_spanish_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -410,9 +382,13 @@ CREATE TABLE `usuarios` (
 
 LOCK TABLES `usuarios` WRITE;
 /*!40000 ALTER TABLE `usuarios` DISABLE KEYS */;
-INSERT INTO `usuarios` VALUES (2021090043,'Edwin Uriel','Astudillo','Perez',1,'2005-03-21','urigod@gmail.com','1234','2022-05-30 13:24:59',1,1,1),(2021090083,'Ian','Ayala','Gonzalez',1,'2004-10-13','ayala.gonzalez.ian@gmail.com','99310675','2022-05-30 13:18:36',1,2,2),(2021090116,'Jaret','Garcia','Gomez',1,'2005-06-11','jaretgarciagomez@gmail.com','227430J','2022-05-30 11:04:40',1,2,2),(2021090613,'Axel','Gomez','Herrera',1,'2004-05-25','gomez.herrera.axel.25@gmail.com','hola1234','2022-05-31 05:51:22',1,2,2);
+INSERT INTO `usuarios` VALUES (2021090043,'Edwin Uriel','Astudillo','Perez',1,'2005-03-21','urigod@gmail.com','1234','2022-05-30 13:24:59',1,1),(2021090083,'Ian','Ayala','Gonzalez',1,'2004-10-13','ayala.gonzalez.ian@gmail.com','99310675','2022-05-30 13:18:36',1,3),(2021090116,'Jaret','Garcia','Gomez',1,'2005-06-11','jaret.gg@outlook.com','227430','2022-06-12 16:46:43',1,3),(2021090613,'Axel','Gomez','Herrera',1,'2004-05-25','gomez.herrera.axel.25@gmail.com','hola1234','2022-05-31 05:51:22',1,2),(2021091516,'Jaime','Minor','Gomez',1,'1990-03-31','jaime123@gmail.com','soyjaime123','2022-06-12 17:32:36',1,2);
 /*!40000 ALTER TABLE `usuarios` ENABLE KEYS */;
 UNLOCK TABLES;
+
+--
+-- Dumping events for database 'cecyt-integrador'
+--
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -423,4 +399,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-05-31 11:51:59
+-- Dump completed on 2022-06-12 18:40:44

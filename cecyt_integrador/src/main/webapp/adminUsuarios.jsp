@@ -1,6 +1,7 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <jsp:include page="header.jsp" />
-<div class="container-fluid" style="margin-bottom: 4rem">
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<div class="container-fluid container25" style="margin-bottom: 4rem">
   <h3 class="text-dark mb-4" id="h3-usuarios">Consulta usuarios</h3>
   <div class="card shadow">
     <div class="card-header py-3">
@@ -38,60 +39,32 @@
               <th>Email</th>
               <th>Password</th>
               <th>Rol</th>
-              <th>Privilegio</th>
-              <th>Administrar</th>
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td>2021090116</td>
-              <td>Jaret</td>
-              <td>Garcia</td>
-              <td>Gomez</td>
-              <td>Masculino</td>
-              <td>2005-06-11</td>
-              <td>jaretgarciagomez@gmail.com</td>
-              <td>227430J</td>
-              <td>Aministrador</td>
-              <td>Adminstrador</td>
-              <td>
-                <a href="#">
-                  <button
-                    class="btn btn-main btn btn-outline-info btn-circle btn-lg btn-circle ml-2"
-                    id="btn-admin"
-                    type="button"
-                  >
-                    <i class="far fa-edit"></i></button></a
-                ><a href="#">
-                  <button
-                    class="btn btn-main btn btn-outline-info btn-circle btn-lg btn-circle ml-2"
-                    type="button"
-                  >
-                    <i class="far fa-trash-alt"></i>
-                  </button>
+            <c:forEach items="${usuarios}" var="u">
+              <tr>
+                <td>${u.bol_usu}</td>
+                <td>${u.nom_usu}</td>
+                <td>${u.app_usu}</td>
+                <td>${u.apm_usu}</td>
+                <td>${u.id_sex}</td>
+                <td>${u.fna_usu}</td>
+                <td>${u.ema_usu}</td>
+                <td>${u.pas_usu}</td>
+                <td>${u.id_rol}</td>
+                <td>
+                  <a href="${pageContext.request.contextPath}/editProfile.jsp?bol_usu=${u.bol_usu}">
+                    <button
+                            class="btn btn-main btn btn-outline-info btn-circle btn-lg btn-circle ml-2"
+                            id="btn-admin"
+                            type="button"
+                    >
+                      <i class="far fa-edit"></i></button>
                 </a>
-              </td>
-            </tr>
-          </tbody>
-          <tfoot>
-            <tr>
-              <td><strong>Boleta</strong></td>
-              <td><strong>Nombre</strong></td>
-              <td>
-                <strong><br />Apellido paterno<br /><br /></strong>
-              </td>
-              <td>
-                <strong><br />Apellido materno<br /><br /></strong>
-              </td>
-              <td><strong>Sexo</strong></td>
-              <td><strong>Fecha de nacimiento</strong></td>
-              <td><strong>Email</strong></td>
-              <td><strong>Password</strong></td>
-              <td><strong>Rol</strong></td>
-              <td><strong>Privilegio</strong></td>
-              <td><strong>Administrar</strong></td>
-            </tr>
-          </tfoot>
+                </td>
+              </tr>
+            </c:forEach>
         </table>
       </div>
       <div class="row"></div>

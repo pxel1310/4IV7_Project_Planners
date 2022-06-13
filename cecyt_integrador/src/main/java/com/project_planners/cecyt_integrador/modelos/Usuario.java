@@ -1,8 +1,15 @@
 package com.project_planners.cecyt_integrador.modelos;
 
+import com.project_planners.cecyt_integrador.modelos.Usuario;
+import com.project_planners.cecyt_integrador.util.ConexionBaseDatos;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
 
 public class Usuario {
-    Integer id_pri;
     Integer id_rol;
     Integer act_usu;
     String cre_usu;
@@ -14,13 +21,14 @@ public class Usuario {
     String app_usu;
     String nom_usu;
     Integer bol_usu;
+    String nom_sex;
 
-    public Integer getId_pri() {
-        return id_pri;
+    public String getNom_sex() {
+        return nom_sex;
     }
 
-    public void setId_pri(Integer id_pri) {
-        this.id_pri = id_pri;
+    public void setNom_sex(String nom_sex) {
+        this.nom_sex = nom_sex;
     }
 
     public Integer getId_rol() {
@@ -110,4 +118,46 @@ public class Usuario {
     public void setBol_usu(Integer bol_usu) {
         this.bol_usu = bol_usu;
     }
+
+    public static Usuario getProfile(String ema_usu, String pas_usu){
+        Connection con = null;
+        PreparedStatement ps = null;
+        ResultSet rs = null;
+        Usuario profile = new Usuario();
+        try {
+            con = ConexionBaseDatos.getConnection();
+
+            String sql;
+
+            sql = "SELECT bol_usu, ema_usu, nom_usu, pas_usu, app_usu, apm_usu, id_sex, fna_usu, " +
+                    "usuarios.id_rol, cre_usu, roles.nom_rol FROM usuarios join roles on (usuarios.id_rol = roles.id_rol)" +
+                    "WHERE ema_usu = ? AND pas_usu = ?";
+
+            ps = con.prepareStatement(sql);
+            ps.setString(1, ema_usu);
+            ps.setString(2, pas_usu);
+            rs = ps.executeQuery();
+
+            while (rs.next()) {
+                profile.setBol_usu(rs.getInt("bol_usu"));
+                profile.setEma_usu(rs.getString("ema_usu"));
+                profile.setNom_usu(rs.getString("nom_usu"));
+                profile.setPas_usu(rs.getString("pas_usu"));
+                profile.setApp_usu(rs.getString("app_usu"));
+                profile.setApm_usu(rs.getString("apm_usu"));
+                profile.setId_sex(rs.getInt("id_sex"));
+                profile.setFna_usu(rs.getString("fna_usu"));
+                profile.setId_rol(rs.getInt("id_rol"));
+                profile.setCre_usu(rs.getString("cre_usu"));
+                break;
+            }
+            rs.close();
+            ps.close();
+            con.close();
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+        return profile;
+    }
+
 }

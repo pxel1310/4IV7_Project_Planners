@@ -1,5 +1,6 @@
 package com.project_planners.cecyt_integrador.controladores;
 
+import com.project_planners.cecyt_integrador.modelos.Situacion;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.*;
@@ -67,6 +68,7 @@ public class LoginServlet extends HttpServlet {
                         "                                <div\n" +
                         "                                    class=\"col-lg-6 top-50 p-5\"\n" +
                         "                                    id=\"div-bienvenido\"\n" +
+                        "                                    style=\"margin-top: 3.2rem;\"\n" +
                         "                                >\n" +
                         "                                    <div class=\"text-center\">\n" +
                         "                                        <h1 class=\"text-dark mb-4\">\n" +
@@ -112,15 +114,34 @@ public class LoginServlet extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String username = req.getParameter("ema_usu");
         String password = req.getParameter("pas_usu");
+        Integer boleta = Integer.parseInt(req.getParameter("bol_usu"));
+
+        Usuario profile = Usuario.getProfile(username, password);
+        Situacion pro = Situacion.getPro(boleta);
 
         UsuarioService service = new UsuarioServiceImpl((Connection) req.getAttribute("conn"));
         Optional<Usuario> usuarioOptional = service.login(username, password);
         if (usuarioOptional.isPresent()) {
             HttpSession session = req.getSession();
-            session.setAttribute("username", username);
+            session.setAttribute("bol_usu", profile.getBol_usu());
+            session.setAttribute("ema_usu", profile.getEma_usu());
+            session.setAttribute("nom_usu", profile.getNom_usu());
+            session.setAttribute("pas_usu", profile.getPas_usu());
+            session.setAttribute("app_usu", profile.getApp_usu());
+            session.setAttribute("apm_usu", profile.getApm_usu());
+            session.setAttribute("id_sex", profile.getNom_sex());
+            session.setAttribute("fna_usu", profile.getFna_usu());
+            session.setAttribute("cre_usu", profile.getCre_usu());
+            session.setAttribute("id_rol", profile.getId_rol());
+
+            session.setAttribute("id_gru", pro.getId_gru());
+            session.setAttribute("id_tur", pro.getId_tur());
+            session.setAttribute("id_esp", pro.getId_esp());
+            session.setAttribute("id_sem", pro.getId_sem());
+
             resp.sendRedirect(req.getContextPath() + "/login.html");
         } else {
-            resp.sendError(HttpServletResponse.SC_UNAUTHORIZED, "Lo sentimos no esta autorizado para ingresar a esta página!");
+            resp.sendRedirect(req.getContextPath() + "/401.jsp");
         }
     }
 }

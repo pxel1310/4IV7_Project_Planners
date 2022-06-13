@@ -1,7 +1,7 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <jsp:include page="header.jsp" />
-<div class="container-fluid" id="container-profile1">
-  <h3 class="text-dark mb-4" id="h3-profile">Perfil</h3>
+<div class="container-fluid container25">
+  <h3 class="text-dark mb-4 perfil-h3">Perfil</h3>
   <div class="row mb-3" style="display: flex; justify-content: center">
     <div class="col-lg-8">
       <div class="row">
@@ -13,7 +13,8 @@
               </p>
             </div>
             <div class="card-body">
-              <form>
+              <form action="${pageContext.request.contextPath}/editarPerfil"
+              method="post">
                 <div class="row">
                   <div class="col">
                     <div class="mb-3">
@@ -25,9 +26,9 @@
                         id="bol_usu"
                         name="bol_usu"
                         placeholder="Nombre"
-                        disabled=""
                         readonly=""
                         onkeypress="return soloNumeros(event)"
+                        value="${sessionScope.bol_usu}"
                       />
                     </div>
                   </div>
@@ -39,10 +40,9 @@
                         class="form-control"
                         type="email"
                         id="ema_usu"
-                        name=""
+                        value="${sessionScope.ema_usu}"
                         placeholder="user@example.com"
                         name="ema_usu"
-                        disabled=""
                         readonly=""
                       />
                     </div>
@@ -57,7 +57,7 @@
                         class="form-control"
                         type="text"
                         id="nom_usu"
-                        name=""
+                        value="${sessionScope.nom_usu}"
                         placeholder="Nombre"
                         name="nom_usu"
                         onkeypress="return validarnl(event)"
@@ -72,7 +72,7 @@
                         class="form-control"
                         type="password"
                         id="pas_usu"
-                        name=""
+                        value="${sessionScope.pas_usu}"
                         placeholder="Contraseña"
                         name="pas_usu"
                       />
@@ -88,7 +88,7 @@
                         class="form-control"
                         type="text"
                         id="app_usu"
-                        name=""
+                        value="${sessionScope.app_usu}"
                         placeholder="Appat"
                         name="app_usu"
                         onkeypress="return validarnl(event)"
@@ -103,7 +103,7 @@
                         class="form-control"
                         type="text"
                         id="apm_usu"
-                        name=""
+                        value="${sessionScope.apm_usu}"
                         placeholder="Apmat"
                         name="apm_usu"
                         onkeypress="return validarnl(event)"
@@ -118,7 +118,7 @@
                         ><strong>Sexo</strong><br /></label
                       ><select class="form-select" id="id_sex" name="id_sex">
                         <optgroup label="Sexo">
-                          <option value="1" selected="">Masculino</option>
+                          <option value="1">Masculino</option>
                           <option value="2">Femenino</option>
                         </optgroup>
                       </select>
@@ -128,7 +128,13 @@
                     <div class="mb-3">
                       <label class="form-label" for="last_name"
                         ><strong>Fecha de Nacimiento</strong><br /></label
-                      ><input class="form-control" type="date" name="fna_usu" id="fna_usu"/>
+                      ><input
+                        class="form-control"
+                        type="date"
+                        name="fna_usu"
+                        id="fna_usu"
+                        value="${sessionScope.fna_usu}"
+                      />
                     </div>
                   </div>
                 </div>
@@ -136,25 +142,15 @@
                   <div class="col">
                     <div class="mb-3">
                       <label class="form-label" for="first_name"
-                        ><strong>Rol</strong><br /></label
-                      ><select class="form-select" id="id_rol" name="id_rol">
-                        <optgroup label="Rol">
-                          <option value="1" selected="">Alumno</option>
-                          <option value="2">Adminstrador</option>
-                        </optgroup>
-                      </select>
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div class="mb-3">
-                      <label class="form-label" for="last_name"
-                        ><strong>Privilegio</strong><br /></label
-                      ><select class="form-select" id="id_pri" name="id_pri">
-                        <optgroup label="Privilegio">
-                          <option value="1" selected="">Alumno</option>
-                          <option value="2">Adminstrador</option>
-                        </optgroup>
-                      </select>
+                        ><strong>Fecha y Hora de Creacion</strong><br /></label
+                      ><input
+                        class="form-control"
+                        type="text"
+                        id="cre_usu"
+                        value="${sessionScope.cre_usu}"
+                        name="cre_usu"
+                        readonly=""
+                      />
                     </div>
                   </div>
                 </div>
@@ -208,48 +204,48 @@
                         ><strong>Grupo</strong><br /></label
                       ><select class="form-select" id="id_gru" name="id_gru">
                         <optgroup label="Matutino" id="matutino">
-                            <option value="14">3IM7</option>
-                            <option value="15">3IM8</option>
-                            <option value="16">3IM9</option>
-                            <option value="17">4IM7</option>
-                            <option value="18">4IM8</option>
-                            <option value="19">4IM9</option>
-                            <option value="20">4IM10</option>
-                            <option value="21">5IM7</option>
-                            <option value="22">5IM8</option>
-                            <option value="23">5IM9</option>
-                            <option value="24">6IM7</option>
-                            <option value="25">6IM8</option>
-                            <option value="26">6IM9</option>
-                          </optgroup>
-                          <optgroup label="Vespertino" id="vespertino">
-                            <option value="1">3IV7</option>
-                            <option value="2">3IV8</option>
-                            <option value="3">3IV9</option>
-                            <option value="4">4IV7</option>
-                            <option value="5">4IV8</option>
-                            <option value="6">4IV9</option>
-                            <option value="7">4IV10</option>
-                            <option value="8">5IV7</option>
-                            <option value="9">5IV8</option>
-                            <option value="10">5IV9</option>
-                            <option value="11">6IV7</option>
-                            <option value="12">6IV8</option>
-                            <option value="13">6IV9</option>
-                          </optgroup>
+                          <option value="14">3IM7</option>
+                          <option value="15">3IM8</option>
+                          <option value="16">3IM9</option>
+                          <option value="17">4IM7</option>
+                          <option value="18">4IM8</option>
+                          <option value="19">4IM9</option>
+                          <option value="20">4IM10</option>
+                          <option value="21">5IM7</option>
+                          <option value="22">5IM8</option>
+                          <option value="23">5IM9</option>
+                          <option value="24">6IM7</option>
+                          <option value="25">6IM8</option>
+                          <option value="26">6IM9</option>
+                        </optgroup>
+                        <optgroup label="Vespertino" id="vespertino">
+                          <option value="1">3IV7</option>
+                          <option value="2">3IV8</option>
+                          <option value="3">3IV9</option>
+                          <option value="4">4IV7</option>
+                          <option value="5">4IV8</option>
+                          <option value="6">4IV9</option>
+                          <option value="7">4IV10</option>
+                          <option value="8">5IV7</option>
+                          <option value="9">5IV8</option>
+                          <option value="10">5IV9</option>
+                          <option value="11">6IV7</option>
+                          <option value="12">6IV8</option>
+                          <option value="13">6IV9</option>
+                        </optgroup>
                       </select>
                     </div>
                   </div>
                 </div>
+                <button
+                        class="btn btn-main btn-sm"
+                        id="boton-guardarCambios"
+                        type="submit"
+                        onclick="return validarfor()"
+                >
+                  Actualizar perfil
+                </button>
               </form>
-              <button
-                class="btn btn-main btn-sm"
-                id="boton-guardarCambios"
-                type="submit"
-                onclick="return validarfor()"
-              >
-                Actualizar perfil
-              </button>
             </div>
           </div>
         </div>

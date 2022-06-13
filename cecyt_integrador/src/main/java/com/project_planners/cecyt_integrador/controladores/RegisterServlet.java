@@ -132,6 +132,7 @@ public class RegisterServlet extends HttpServlet {
         String fna_usu = req.getParameter("fna_usu");
         String ema_usu = req.getParameter("ema_usu");
         String pas_usu = req.getParameter("pas_usu");
+        Integer id_rol = Integer.parseInt(req.getParameter("id_rol"));
 
         Integer id_gru = Integer.parseInt(req.getParameter("id_gru"));
         Integer id_tur = Integer.parseInt(req.getParameter("id_tur"));
@@ -159,25 +160,16 @@ public class RegisterServlet extends HttpServlet {
         Situacion situacion = new Situacion();
 
         usuario.setBol_usu(bol_usu);
-        if (nom_usu != null && !nom_usu.isBlank()) {
-            usuario.setNom_usu(nom_usu);
-        }
-        if (app_usu != null && !app_usu.isBlank()) {
-            usuario.setApp_usu(app_usu);
-        }
-        if (apm_usu != null && !apm_usu.isBlank()) {
-            usuario.setApm_usu(apm_usu);
-        }
-        if (ema_usu != null && !ema_usu.isBlank()) {
-            usuario.setEma_usu(ema_usu);
-        }
-        if (pas_usu != null && !pas_usu.isBlank()) {
-            usuario.setPas_usu(pas_usu);
-        }
+        usuario.setNom_usu(nom_usu);
+        usuario.setApp_usu(app_usu);
+        usuario.setApm_usu(apm_usu);
+        usuario.setEma_usu(ema_usu);
+        usuario.setPas_usu(pas_usu);
         usuario.setId_sex(id_sex);
         usuario.setFna_usu(fna_usu);
+        usuario.setId_rol(id_rol);
 
-        situacion.setBol_id(bol_usu);
+        situacion.setBol_usu(bol_usu);
         situacion.setId_gru(id_gru);
         situacion.setId_tur(id_tur);
         situacion.setId_esp(id_esp);

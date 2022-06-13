@@ -11,7 +11,7 @@ public class LoginServiceCookieImpl implements LoginService {
     public Optional<String> getUser(HttpServletRequest req) {
         Cookie[] cookies = req.getCookies() != null ? req.getCookies(): new Cookie[0];
         return Arrays.stream(cookies)
-                .filter(c-> "username".equals(c.getName()))
+                .filter(c-> "ema_usu".equals(c.getName()))
                 .map(Cookie::getValue)
                 .findAny();
     }

@@ -13,8 +13,17 @@ public class Material {
     String con_bib;
     String con_cop;
     String con_rap;
+    String url_pdf;
 
-    public static Material getMaterial(int asi_id){
+    public String getUrl_pdf() {
+        return url_pdf;
+    }
+
+    public void setUrl_pdf(String url_pdf) {
+        this.url_pdf = url_pdf;
+    }
+
+    public static Material getMaterial(int id_asi){
         Connection con = null;
         PreparedStatement ps = null;
         ResultSet rs = null;
@@ -23,24 +32,25 @@ public class Material {
             con = ConexionBaseDatos.getConnection();
 
             String sql;
-            sql = "SELECT a.nom_asi AS nom_asi, b.con_cog AS con_cog, c.con_bib AS con_bib FROM asignaturas AS a " +
+            sql = "SELECT a.nom_asi AS nom_asi, b.con_cog AS con_cog, c.con_bib AS con_bib, b.url_pdf FROM asignaturas AS a " +
                     "JOIN cogeneral AS b ON (a.id_asi = b.id_asi) JOIN bibliografias AS c ON (a.id_asi = c.id_asi) " +
                     "WHERE a.id_asi = ?";
             ps = con.prepareStatement(sql);
-            ps.setInt(1, asi_id);
+            ps.setInt(1, id_asi);
             rs = ps.executeQuery();
 
             while(rs.next()){
                 mt.setNom_asi(rs.getString("nom_asi"));
                 mt.setCon_cog(rs.getString("con_cog"));
                 mt.setCon_bib(rs.getString("con_bib"));
+                mt.setUrl_pdf(rs.getString("url_pdf"));
                 break;
             }
             sql = "SELECT a.con_cop AS con_cop, f.con_rap AS con_rap FROM coparticulares AS a JOIN asignaturas AS b ON " +
                     "b.id_asi = a.id_asi JOIN raps AS f ON a.nom_cop = f.nom_cop WHERE a.id_asi = ?";
 
             ps = con.prepareStatement(sql);
-            ps.setInt(1, asi_id);
+            ps.setInt(1, id_asi);
             rs = ps.executeQuery();
 
             while(rs.next()){

@@ -9,9 +9,9 @@ public class LoginServiceSessionImpl implements LoginService{
     @Override
     public Optional<String> getUser(HttpServletRequest request) {
         HttpSession session = request.getSession();
-        String username = (String) session.getAttribute("username");
-        if (username != null) {
-            return Optional.of(username);
+        String ema_usu = (String) session.getAttribute("ema_usu");
+        if (ema_usu != null) {
+            return Optional.of(ema_usu);
         }
         return Optional.empty();
     }

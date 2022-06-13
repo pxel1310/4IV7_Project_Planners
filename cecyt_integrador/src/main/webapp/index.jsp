@@ -2,76 +2,46 @@
 
 <jsp:include page="header.jsp" />
 <main id="main">
-  <div
-    id="carousel"
-    class="carousel slide"
-    data-ride="carousel"
-    data-pause="false"
-  >
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img
-          class="d-block w-100"
-          src="./img/cecyt-img01.jpg"
-          alt="cecyt-img01"
-        />
-      </div>
-      <div class="carousel-item">
-        <img
-          class="d-block w-100"
-          src="./img/cecyt-img02.jpg"
-          alt="cecyt-img02"
-        />
-      </div>
-      <div class="carousel-item">
-        <img
-          class="d-block w-100"
-          src="./img/cecyt-img03.jpg"
-          alt="cecyt-img03"
-        />
-      </div>
-      <div class="carousel-item">
-        <img
-          class="d-block w-100"
-          src="./img/cecyt-img04.jpg"
-          alt="cecyt-img04"
-        />
-      </div>
-      <div class="carousel-item">
-        <img
-          class="d-block w-100"
-          src="./img/cecyt-img05.jpg"
-          alt="cecyt-img05"
-        />
-      </div>
-    </div>
-    <div class="overlay">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-md-6 offset-md-6 text-md-right text-center">
-            <h1>CECyT Integrador</h1>
-            <p class="d-none d-md-block">
-              Empieza a aprovechar tu tiempo con nuestro asistente. Maneja,
-              organiza y consulta información con nuestro repositorio con
-              material verídico.
-            </p>
-            <a
-              type="button"
-              class="btn btn-main"
-              href="${pageContext.request.contextPath}/login.html"
-            >
-              Iniciar Sesión
-            </a>
-            <a
-              class="btn btn-outline-light"
-              href="${pageContext.request.contextPath}/register.html"
-              >Registrar Usuario</a
-            >
+  <section>
+    <div
+      style="
+        height: 500px;
+        background-image: url(./img/cecyt-img01.jpg);
+        background-position: center;
+        background-size: cover;
+      "
+    >
+      <div class="container h-100">
+        <div class="row h-100">
+          <div
+            class="col-md-6 text-center text-md-start d-flex d-sm-flex d-md-flex justify-content-center align-items-center justify-content-md-start align-items-md-center justify-content-xl-center"
+          >
+            <div style="max-width: 350px">
+              <h1 class="text-uppercase fw-bold" style="color: white">
+                CECYT INTEGRADOR
+              </h1>
+              <p class="my-3" style="color: #ffffff">
+                Empieza a aprovechar el tiempo con nuestro asistente. Maneja,
+                organiza y consulta información con nuestro repositorio con
+                material veridico
+              </p>
+              <a
+                class="btn btn-lg me-2 btn-main"
+                role="button"
+                href="${pageContext.request.contextPath}/login.html"
+                >Iniciar Sesión</a
+              ><a
+                class="btn btn-lg btn-outline-light btn-registrar"
+                role="button"
+                href="${pageContext.request.contextPath}/register.html"
+                >Registrarse</a
+              >
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
+  </section>
 </main>
 <div class="container py-4 py-xl-5">
   <div class="row mb-5">
@@ -114,13 +84,14 @@
           <p class="text-primary card-text mb-0"></p>
           <h4 class="card-title">Impacto social:</h4>
           <p class="card-text">
-            Los alumnos del CECyT 09 han podido aumentar las calificaciones, 
-            gracias a que la información proporcionada por el asistente ya que 
-            es de mucha ayuda al realizar una actividad académica además de que 
-            al ser de una fuente confiable, los alumnos pueden despreocuparse por obtener 
-            algún material que no tenga nada que ver con el tema solicitado, por lo que este 
-            proyecto es un impacto social positivo para los estudiantes, al reducir el tiempo 
-            de búsqueda de información, realización de las tareas y la disminución del estrés 
+            Los alumnos del CECyT 09 han podido aumentar las calificaciones,
+            gracias a que la información proporcionada por el asistente ya que
+            es de mucha ayuda al realizar una actividad académica además de que
+            al ser de una fuente confiable, los alumnos pueden despreocuparse
+            por obtener algún material que no tenga nada que ver con el tema
+            solicitado, por lo que este proyecto es un impacto social positivo
+            para los estudiantes, al reducir el tiempo de búsqueda de
+            información, realización de las tareas y la disminución del estrés
             generado por las actividades académicas.
           </p>
           <div class="d-flex">
@@ -141,10 +112,11 @@
           <p class="text-primary card-text mb-0"></p>
           <h4 class="card-title">Quienes somos:</h4>
           <p class="card-text">
-            Somos project Planners, Un equipo de programadores del 
-            CECyT 9, actualmente con un objetivo de crear un asistente llamado
-            "CECyT Integrador" el cual su funcion será ayudar con informacion a los estudiantes
-            Este proyecto será mejorado con el tiempo para que pueda ser de más ayuda en un futuro para los estudiantes.
+            Somos project Planners, Un equipo de programadores del CECyT 9,
+            actualmente con un objetivo de crear un asistente llamado "CECyT
+            Integrador" el cual su funcion será ayudar con informacion a los
+            estudiantes Este proyecto será mejorado con el tiempo para que pueda
+            ser de más ayuda en un futuro para los estudiantes.
           </p>
           <div class="d-flex">
             <div></div>
@@ -154,12 +126,14 @@
     </div>
   </div>
 </div>
-<div class="col mb-4" id="container-car">
-  <div class="card" id="twitter-card">
+<div class="col mb-4" style="display: flex;
+  justify-content: center;">
+  <div class="card twitter-card" style="display: flex;
+    justify-content: center;">
     <a
       class="twitter-timeline"
-      data-width="100%"
-      data-height="500"
+      data-width="900"
+      data-height="600"
       href="https://twitter.com/_cecyt9"
       >CECyT 09 Twitter</a
     >

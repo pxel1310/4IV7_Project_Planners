@@ -10,17 +10,17 @@ import com.project_planners.cecyt_integrador.servicios.LoginServiceSessionImpl;
 import java.io.IOException;
 import java.util.Optional;
 
-@WebFilter({"/material.jsp", "/inicio.jsp", "/adminUsuarios.jsp", "/editProfile.jsp"})
+@WebFilter({"/material.jsp", "/inicio.jsp", "/adminUsuarios.jsp", "/editProfile.jsp", "/editarAdmin.jsp",
+        "/AdminUsuariosEditar,", "/AdminUsuarios", "/editarPerfil"})
 public class LoginFiltro implements Filter {
     @Override
     public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {
         LoginService service = new LoginServiceSessionImpl();
-        Optional<String> username = service.getUser((HttpServletRequest) request);
-        if (username.isPresent()) {
+        Optional<String> ema_usu = service.getUser((HttpServletRequest) request);
+        if (ema_usu.isPresent()) {
             chain.doFilter(request, response);
         } else {
-            ((HttpServletResponse)response).sendError(HttpServletResponse.SC_UNAUTHORIZED,
-                    "Lo sentimos no estas autorizado para ingresar a esta pagina!");
+            ((HttpServletResponse)response).sendRedirect(((HttpServletRequest) request).getContextPath() + "/401.jsp");
         }
     }
 }

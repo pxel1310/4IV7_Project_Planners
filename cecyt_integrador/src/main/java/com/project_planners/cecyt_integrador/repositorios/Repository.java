@@ -5,5 +5,6 @@ import java.util.List;
 
 public interface Repository<T> {
     void registrar(T t) throws SQLException;
+    List<T> listar() throws SQLException;
 
 }
