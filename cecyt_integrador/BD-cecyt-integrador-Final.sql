@@ -348,7 +348,7 @@ CREATE TABLE `situaciones` (
 
 LOCK TABLES `situaciones` WRITE;
 /*!40000 ALTER TABLE `situaciones` DISABLE KEYS */;
-INSERT INTO `situaciones` VALUES (1111111111,13,2,2,4),(1231232313,14,1,1,1),(2021090043,4,2,1,2),(2021090083,11,2,2,4),(2021090116,14,1,1,1),(2021090613,4,2,2,2),(2021091516,14,1,1,1);
+INSERT INTO `situaciones` VALUES (1111111111,17,1,2,2),(2021090081,14,1,2,2),(2021090083,14,1,2,4),(2021090116,14,1,2,1),(2021090613,4,2,2,2),(2021091516,14,1,2,1);
 /*!40000 ALTER TABLE `situaciones` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -412,7 +412,7 @@ CREATE TABLE `usuarios` (
 
 LOCK TABLES `usuarios` WRITE;
 /*!40000 ALTER TABLE `usuarios` DISABLE KEYS */;
-INSERT INTO `usuarios` VALUES (1111111111,'Example','Example','Example',2,'2022-06-06','example@gmail.com','1234','2022-06-13 00:06:12',1,2),(1231232313,'asddas','dasasd','dasdasasd',1,'2022-06-01','examp3le@gmail.com','1','2022-06-13 02:40:01',1,1),(2021090043,'Edwin Uriel','Astudillo','Perez',1,'2005-03-21','urigod@gmail.com','1234','2022-05-30 13:24:59',1,1),(2021090083,'Ian','Ayala','Gonzalez',1,'2004-10-13','ayala.gonzalez.ian@gmail.com','99310675','2022-05-30 13:18:36',1,3),(2021090116,'Jaret','Garcia','Gomez',1,'2005-06-11','jaret.gg@outlook.com','227430','2022-06-12 16:46:43',1,3),(2021090613,'Axel','Gomez','Herrera',1,'2004-05-25','gomez.herrera.axel.25@gmail.com','hola1234','2022-05-31 05:51:22',1,2),(2021091516,'Jaime','Minor','Gomez',1,'1990-03-31','jaime123@gmail.com','soyjaime123','2022-06-12 17:32:36',1,2);
+INSERT INTO `usuarios` VALUES (1111111111,'Alumno','Example','Example',1,'2000-01-01','example@gmail.com','1234','2022-06-14 03:47:32',1,1),(2021090081,'Maestro','Example','Example',2,'2000-01-01','example2@gmail.com','1234','2022-06-14 04:00:51',1,2),(2021090083,'Ian','Ayala','Gonzalez',1,'2004-10-13','ayala.gonzalez.ian@gmail.com','99310675','2022-05-30 13:18:36',1,3),(2021090116,'Jaret','Garcia','Gomez',1,'2005-06-11','jaret.gg@outlook.com','227430','2022-06-12 16:46:43',1,3),(2021090613,'Axel','Gomez','Herrera',1,'2004-05-25','gomez.herrera.axel.25@gmail.com','hola1234','2022-05-31 05:51:22',1,2),(2021091516,'Jaime','Minor','Gomez',1,'1990-03-31','jaime123@gmail.com','soyjaime123','2022-06-12 17:32:36',1,2);
 /*!40000 ALTER TABLE `usuarios` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -425,4 +425,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-06-12 22:34:47
+-- Dump completed on 2022-06-14  1:05:02

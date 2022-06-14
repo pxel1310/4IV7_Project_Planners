@@ -27,7 +27,6 @@ public class AdminUsuariosEditarServlet extends HttpServlet {
 
         req.setAttribute("usuario", usuario);
         req.setAttribute("title", req.getAttribute("title") + ": Registro de usuario");
-
         getServletContext().getRequestDispatcher("/AdminUsuarios").forward(req, resp);
     }
 

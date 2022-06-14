@@ -69,6 +69,7 @@
       </div>
       <div class="row"></div>
     </div>
+    <a class="nav-link" href="${pageContext.request.contextPath}/productos.xls">Generar listado de Usuarios en Xls</a>
   </div>
 </div>
 <jsp:include page="footer.jsp" />

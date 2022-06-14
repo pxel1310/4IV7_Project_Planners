@@ -630,11 +630,6 @@ textarea {
 }
 
 .btn {
-  font-family: "Roboto";
-  font-weight: 400;
-}
-
-.btn {
   border-radius: 5px;
 }
 
@@ -705,6 +700,7 @@ textarea {
 
 .navbar-izquierdo{
   background-color: #2e2826;
+  width: 20rem !important;
 }
 
 #div-link-material {
@@ -743,3 +739,13 @@ textarea {
 .btn-archivo{
   margin-top: 1rem;
 }
+
+#img-login {
+  display: flex;
+  max-width: 100%;
+  max-height: 75%;
+  margin-top: 3rem;
+  margin-left: 3rem;
+  border-radius: 15px;
+}
+

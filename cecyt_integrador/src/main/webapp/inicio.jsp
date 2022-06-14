@@ -4,14 +4,14 @@
 <div class="container py-4 py-xl-5">
   <div class="container-clock">
     <h1 id="time">00:00:00</h1>
-    <p id="date">date</p>
+    <h4 id="date">date<h4/>
+    <script src="./js/clock.js"></script>
   </div>
   <div class="row gy-4 gy-md-0">
     <div
       class="col-md-6 col-xxl-6 offset-xxl-0 text-center text-md-start d-flex d-sm-flex d-md-flex justify-content-center align-items-center justify-content-md-start align-items-md-center justify-content-xl-center"
     >
       <div style="max-width: 500px">
-        <script src="./js/clock.js"></script>
         <h2 class="text-uppercase fw-bold">Material<br /></h2>
         <p class="fs-5 my-3">
           <strong
@@ -103,8 +103,7 @@
                 </optgroup>
                 <optgroup label="Cuarto Semestre" id="Cuarto Semestre">
                   <option value="4">
-                    Administración de Proyectos de Tecnologías de la Información
-                    II/option>
+                    Administración de Proyectos de Tecnologías de la Información II
                   </option>
                   <option value="5">Bases de Datos</option>
                   <option value="6">
@@ -125,8 +124,7 @@
                     Introducción a los Sistemas Distribuidos
                   </option>
                   <option value="13">
-                    Laboratorio de Proyectos de Tecnologías de la Información
-                    III
+                    Laboratorio de Proyectos de Tecnologías de la Información III
                   </option>
                   <option value="14">Seguridad Web y Aplicaciones</option>
                 </optgroup>
@@ -147,6 +145,7 @@
       </div>
     </div>
   </div>
+</div>
 <%} if(rol > 2){%>
 <div class="row" id="row-inicio">
   <div class="col">
